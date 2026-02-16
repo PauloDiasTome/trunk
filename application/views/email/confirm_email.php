@@ -1,0 +1,161 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    </head>
+    <body>
+        <div style="background: #EFEEEA">
+            <style type="text/css">
+                <!--
+                .rps_81b p
+                {margin:10px 0;
+                 padding:0}
+                .rps_81b table
+                {border-collapse:collapse}
+                .rps_81b h1, .rps_81b h2, .rps_81b h3, .rps_81b h4, .rps_81b h5, .rps_81b h6
+                {display:block;
+                 margin:0;
+                 padding:0}
+                .rps_81b img, .rps_81b a img
+                {border:0;
+                 height:auto;
+                 outline:none;
+                 text-decoration:none}
+                .rps_81b body, .rps_81b #x_bodyTable, .rps_81b #x_bodyCell
+                {height:100%;
+                 margin:0;
+                 padding:0;
+                 width:100%}
+                .rps_81b #x_outlook a
+                {padding:0}
+                .rps_81b img
+                {}
+                .rps_81b table
+                {}
+                .rps_81b .x_ReadMsgBody
+                {width:100%}
+                .rps_81b .x_ExternalClass
+                {width:100%}
+                .rps_81b p, .rps_81b a, .rps_81b li, .rps_81b td, .rps_81b blockquote
+                {}
+                .rps_81b p, .rps_81b a, .rps_81b li, .rps_81b td, .rps_81b body, .rps_81b table, .rps_81b blockquote
+                {}
+                .rps_81b .x_ExternalClass, .rps_81b .x_ExternalClass p, .rps_81b .x_ExternalClass td, .rps_81b .x_ExternalClass div, .rps_81b .x_ExternalClass span, .rps_81b .x_ExternalClass font
+                {line-height:100%}
+                .rps_81b a[x-apple-data-detectors]
+                {color:inherit!important;
+                 text-decoration:none!important;
+                 font-size:inherit!important;
+                 font-family:inherit!important;
+                 font-weight:inherit!important;
+                 line-height:inherit!important}
+                .rps_81b #x_footerContent a
+                {color:#007C89!important}
+                .rps_81b #x_button a
+                {text-decoration:none}
+                @media only screen and (max-width:480px){
+                    .rps_81b body
+                    {width:100%!important;
+                     min-width:100%!important}
+                    .rps_81b h1
+                    {font-size:24px!important}
+                    .rps_81b .x_footerContent
+                    {padding-bottom:0!important}
+                    .rps_81b .x_footerContent p
+                    {border-bottom:1px solid #EFEEEA;
+                     font-size:13px!important;
+                     padding-bottom:40px!important}
+                    .rps_81b .x_utilityLink
+                    {border-bottom:1px solid #EFEEEA;
+                     display:block;
+                     font-size:13px!important;
+                     padding-top:15px;
+                     padding-bottom:15px}
+                    .rps_81b .x_mobileHide
+                    {display:none;
+                     visibility:hidden}
+
+                }
+                -->
+            </style>
+            <div class="rps_81b">
+                <div style="background-color:#EFEEEA">
+                    <center>
+                        <table align="center" bgcolor="#EFEEEA" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="x_bodyTable">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="top" id="x_bodyCell" style="padding-bottom:60px"><span style="color:#FFE01B; display:none; font-size:0px; height:0px; visibility:hidden; width:0px"><?php echo $this->lang->line("email_almost_ready") ?>!</span>
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="center" valign="top" bgcolor="#FFE01B" style="background-color:#EFEEEA">
+                                                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="x_emailContainer" style="max-width:640px">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="center" valign="top" style="padding:40px">
+                                                                        <a href="https://www.talkall.com.br" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" style="text-decoration:none">
+                                                                            <img data-imagetype="External" src="http://appenvio.talkall.com.br/assets/talk/front/media/img/logo/logo.png" alt="TalkAll" width="60" style="border:0; color:#FFFFFF; font-family:'Helvetica Neue',Helvetica,Arial,Verdana,sans-serif; font-size:12px; font-weight:400; height:auto; letter-spacing:-1px; padding:0; margin:0; outline:none; text-align:center; text-decoration:none">
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="background-color:white; padding-top:40px">&nbsp;</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" valign="top">
+                                                        <table align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" width="100%" class="x_emailContainer" style="background-color:#FFFFFF; max-width:640px">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-right:40px; padding-bottom:40px; padding-left:40px">
+                                                                        <h1 style="color:#241C15; font-family:Georgia,Times,'Times New Roman',serif; font-size:30px; font-style:normal; font-weight:400; line-height:42px; letter-spacing:normal; margin:0; padding:0; text-align:center">
+                                                                            {MSG}
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" valign="middle" style="padding-right:40px; padding-bottom:60px; padding-left:40px">
+                                                                        <table border="0" cellspacing="0" cellpadding="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td align="center" bgcolor="#007C89" id="x_button"><a href="{URL}" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" style="border-radius:0; border:1px solid #007C89; color:#FFFFFF; display:inline-block; font-size:16px; font-family:'Helvetica Neue',Helvetica,Arial,Verdana,sans-serif; font-weight:400; letter-spacing:.3px; padding:20px; text-decoration:none"><?php echo $this->lang->line("email_confirm_btn") ?></a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" valign="top" style="padding-right:40px; padding-bottom:40px; padding-left:40px">
+                                                                        <p style="color:#6A655F; font-family:'Helvetica Neue',Helvetica,Arial,Verdana,sans-serif; font-size:16px; font-style:normal; font-weight:400; line-height:42px; letter-spacing:normal; margin:0; padding:0; text-align:center">
+                                                                            (Apenas para confirmar que voc&ecirc; &eacute; voc&ecirc;)</p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" valign="top" class="x_footerContent" style="border-top:2px solid #EFEEEA; color:#6A655F; font-family:'Helvetica Neue',Helvetica,Arial,Verdana,sans-serif; font-size:12px; font-weight:400; line-height:24px; padding-top:40px; padding-bottom:40px; text-align:center">
+                                                                        <p style="color:#6A655F; font-family:'Helvetica Neue',Helvetica,Arial,Verdana,sans-serif; font-size:12px; font-weight:400; line-height:24px; padding:0 20px; margin:0; text-align:center">
+                                                                            2018-2019 TalkAll<sup>&reg;</sup>,<?php echo $this->lang->line("email_rights_reserved") ?> <br>
+                                                                            R. Henrique Dias, 366 - Vila Fujita, Londrina - PR, 86015-810
+                                                                        </p>
+                                                                        <a href="https://www.talkall.com.br/contact/" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" class="x_utilityLink" style="color:#6A655F; text-decoration:none; color:#007C89; font-weight:500; text-decoration:none"><?php $this->lang->line("email_contact_us") ?></a><span class="x_mobileHide">
+                                                                            &nbsp; &bull; &nbsp; </span><a href="https://www.talkall.com.br/legal/terms/" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" class="x_utilityLink" style="color:#007C89; font-weight:500; text-decoration:none"><?php $this->lang->line("email_use_terms") ?></a><span class="x_mobileHide">&nbsp; &bull;
+                                                                            &nbsp; </span><a href="https://www.talkall.com.br/legal/privacy/" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" class="x_utilityLink" style="color:#007C89; font-weight:500; text-decoration:none"><?php echo $this->lang->line("email_privacy_policy") ?></a>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

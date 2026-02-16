@@ -1,0 +1,116 @@
+.icon {
+    width: 1rem;
+    height: 1rem;
+}
+
+.filter-top {
+    height: 26px;
+    padding: 0px;
+    padding-left: 6px;
+    cursor: pointer;
+}
+
+.flex-top {
+    display: flex;
+    margin-right: -22px;
+    margin-left: -15px;
+}
+
+.icon-shape i {
+    font-size: 0.8rem
+}
+
+.card-stats.circle {
+    border-radius: 1rem;
+}
+
+.card-stats.circle .percent {
+    font-size: 1.5rem;
+}
+
+.load-card {
+    width: 20px;
+}
+
+.no-data-message {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#categoryDistributionChart {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.user-cell {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.user-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+}
+
+.status-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    border: 2px solid white;
+}
+
+.status-green {
+    background-color: #22c55e;
+}
+
+.status-orange {
+    background-color: #f97316;
+}
+
+.status-gray {
+    background-color: #6b7280;
+}
+
+.user-wrapper {
+    position: relative;
+}
+
+#chart-container {
+    height: 100%;
+    min-height: 300px;
+}
+
+.user-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.2s ease-in-out;
+}
+
+.user-photo:hover {
+    transform: scale(1.5);
+}
+
+.table-user-title {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#datatable-basic thead th {
+    background-color: white !important;
+    border: none !important;
+}

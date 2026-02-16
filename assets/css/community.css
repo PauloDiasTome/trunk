@@ -1,0 +1,64 @@
+.management-rectangle {
+    width: auto;
+    height: 4rem;
+    /* background: #ff000033; */
+    display: flex;
+    align-items: center;
+    margin-bottom: -15px;
+}
+
+.management-rectangle .profile {
+    position: relative;
+    width: 3.4rem;
+    height: 3.4rem;
+}
+
+.management-rectangle .profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.management-rectangle .text {
+    margin-left: 1rem;
+    font-size: 0.9rem;
+}
+
+.management-rectangle .text span {
+    display: block;
+}
+
+.management-rectangle .text span:first-child {
+    font-weight: 600;
+}
+
+.management-rectangle .text span:last-child {
+    margin-top: -3px;
+    font-size: 0.8rem;
+}
+
+.management-rectangle .text select {
+    width: 295px;
+    border: none;
+    outline: none;
+    margin-left: -4px;
+    cursor: pointer;
+    border-bottom: solid #dedede 1px;
+    margin-bottom: 6px;
+    padding-bottom: 3px;
+}
+
+.kt-user-card-v2 {
+    margin: -8px 0px;
+}
+
+.box-picture-profile-config .transition-effect {
+    text-align: center;
+    position: absolute;
+    width: 180px;
+    height: 177px;
+    border-radius: 100px;
+    margin-top: -18px;
+    z-index: 99;
+}

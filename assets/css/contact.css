@@ -1,0 +1,251 @@
+.msf_multiselect li {
+    font-size: 13.5px;
+}
+
+.fa-thumbs-up {
+    transform: rotate(177deg);
+}
+
+.main-left {
+    display: flex;
+    gap: 30px;
+}
+
+.header-contact #dropdownMenuInput {
+    margin-left: 10px;
+}
+
+.header-contact #dropdownMenuIcon {
+    margin-left: 8px;
+    position: absolute;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ccc;
+    /* Fondo gris */
+    color: #666;
+    /* Texto gris */
+    cursor: not-allowed;
+    /* Cambia el cursor a 'no permitido' */
+    border: 1px solid #aaa;
+    /* Borde gris */
+}
+
+
+.header-contact #dropdownMenuInput,
+#datatable-basic .checkbox-table .check-box {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+#datatable-basic .checkbox-table:hover {
+    background-color: #e9e9e9;
+    transition: 0.1s ease-in;
+}
+
+#datatable-basic .checkbox-table {
+    position: absolute;
+    padding-left: 10.4px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 10.9px;
+    margin-top: -17px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.header-contact .group-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -6px;
+}
+
+.header-contact .group-btn button {
+    background-color: #ffffff;
+    color: #535f7f;
+}
+
+.header-contact .group-btn i {
+    cursor: pointer;
+    padding: 11px;
+    border-radius: 40px;
+}
+
+.header-contact .group-btn i:hover {
+    background: #eaeaea;
+    transition: all 0.5s ease;
+}
+
+.text-count-info {
+    font-size: 14.5px;
+    font-weight: 500;
+    color: #595d6e;
+}
+
+#countInfo {
+    color: #0053b1 !important;
+    font-size: 15px;
+}
+
+#modal-process .modal-body .row {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#modal-process .progress {
+    height: 22px;
+    width: 400px;
+    margin-top: 35px;
+}
+
+#modal-process .progress-bar {
+    background-color: #0870c9;
+    transition: width 0.2s ease-in-out;
+    text-align: end;
+    font-weight: 600;
+    padding: 0px 4px;
+}
+
+#modal-process .load {
+    margin-top: 39px;
+}
+
+#modal-process .load img {
+    width: 32px;
+}
+
+#modal-process .modal-body .desc {
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+    padding: 0px 30px;
+    flex-direction: row;
+    font-weight: 700;
+}
+
+#modal-process .modal-body .desc #warning {
+    margin-bottom: 30px;
+    margin-top: 2px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+}
+
+#modal-process .modal-body {
+    height: 10.5rem;
+}
+
+#modal-add-persona .modal-dialog {
+    max-width: 800px;
+    min-width: 800px;
+}
+
+.box-picture-persona-config .picture-persona .icon-add-photo {
+    top: 66px;
+    right: 75px;
+    z-index: 99;
+    display: none;
+    cursor: pointer;
+    font-size: 28px;
+    color: #ffffff;
+    position: absolute;
+}
+
+.box-picture-persona-config .picture-persona .picture-persona-title {
+    top: 96px;
+    z-index: 99;
+    display: none;
+    color: #fff;
+    font-size: 13px;
+    position: absolute;
+}
+
+.box-picture-persona-config img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100px;
+    border: solid 2px #d4d4d4;
+}
+
+.box-picture-persona-config .transition-effect {
+    z-index: 99;
+    width: 180px;
+    display: flex;
+    height: 177px;
+    text-align: center;
+    position: absolute;
+    align-items: center;
+    border-radius: 100px;
+    justify-content: center;
+}
+
+.box-picture-persona-config {
+    width: 215px;
+    height: 178px;
+    padding: 0px 0px 0px 0px;
+    cursor: pointer;
+}
+
+.swal2-container {
+    z-index: 1080;
+}
+
+/* Container principal do multiselect */
+.msf-multiselect,
+.msf-select {
+    display: block;
+    width: 100%;
+    min-height: calc(2.75rem + 2px);
+    padding: .625rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #8898aa;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    box-shadow: 0 3px 2px rgba(233, 236, 239, .05);
+    transition: all .15s cubic-bezier(.68, -.55, .265, 1.55);
+}
+
+.msf-select .msf-select-input {
+    min-height: 100%;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+}
+
+.msf-select-placeholder {
+    color: #8898aa;
+    font-size: 1rem;
+}
+
+.msf-tag {
+    background-color: #5e72e4;
+    color: #fff;
+    border-radius: .25rem;
+    padding: 2px 6px;
+    font-size: .85rem;
+}
+
+.msf-tag-remove {
+    color: #fff;
+    margin-left: 4px;
+}
+
+.msf-multiselect:focus-within {
+    border-color: #5e72e4;
+    box-shadow: 0 0 0 .2rem rgba(94, 114, 228, .25);
+}
+
+.msf-dropdown {
+    border-radius: .25rem;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .1);
+}

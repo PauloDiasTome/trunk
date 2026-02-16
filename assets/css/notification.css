@@ -1,0 +1,39 @@
+#modal-notification .modal-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;       
+  margin: 0 auto;
+  padding: 20px;           /* Evita que grude nas bordas da tela */
+}
+
+#modal-notification .modal-content {
+  width: 100%;
+  max-width: 900px;  
+  border-radius: 10px;
+  overflow: hidden;       
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column; 
+}
+
+#modal-notification .modal-header {
+  padding: 16px 24px;
+  border-bottom: 1px solid #e5e5e5;
+  background: #f9f9f9;
+}
+
+#modal-body-notification.modal-body {
+  padding: 10px 14px;
+  overflow-y: auto;
+  max-height: 80vh; 
+  word-wrap: break-word;
+  text-align: center;
+}
+
+#modal-body-notification img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

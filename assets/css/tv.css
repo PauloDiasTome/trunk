@@ -1,0 +1,97 @@
+
+body,
+html {
+    font-size: 16px;
+}
+
+.main-content {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content .loading-load img{
+  width: 10rem;  
+} 
+
+.main-content .img-default, 
+.main-content video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+/*  MODAL ALERT */
+#modal-alert {
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+#modal-alert .modal-dialog {
+    top: 38%;
+    max-width: 31rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#modal-alert.show .modal-dialog {
+    transform: translateY(0);
+}
+
+#modal-alert .modal-content {
+    min-width: 82%;
+    width: auto;
+    align-items: center;
+    text-align: center;
+    padding: 0 5rem;
+}
+
+#modal-alert .modal-header .modal-title {
+    font-size: 1.4rem;
+}
+
+#modal-alert .modal-body {
+    padding: 0 1.5rem 2rem 1.5rem;
+}
+
+#modal-alert .modal-body span {
+    font-size: 1.3rem;
+}
+
+@media screen and (min-width: 1900px) and (max-width: 2559px) {
+
+    body,
+    html {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 2560px) and (max-width: 3550px) {
+
+    body,
+    html {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 3551px) and (max-width: 5119px) {
+
+    body,
+    html {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 5120px) {
+
+    body,
+    html {
+        font-size: 45px;
+    }
+}

@@ -1,0 +1,218 @@
+:root {
+    --dark-background: #101204;
+    --dark-background-modal: #282E33;
+    --dark-card: #22272B;
+    --dark-border: #A6C5E229;
+    --dark-font-white: #ffffff;
+    --dark-font-gray: #798394;
+    --dark-font-light-gray: #b6c2cf;
+    --dark-hover: #A1BDD914;
+    --dark-neutral: #A1BDD914;
+    --dark-neutral-hover: #A6C5E229;
+    --dark-shadow-overlay: inset 0px 0px 0px 1px #BCD6F01F, 0px 8px 12px #0304045C, 0px 0px 1px #03040480;
+    --dark-input-placeholder: #8C9BAB;
+    --dark-background-input: #22272B;
+    --dark-transition: all 0.3s ease-out;
+}
+
+.dark .kanban .header {
+    border: none;
+}
+
+.dark .kanban .header,
+.dark .kanban .container-fluid .card,
+.dark .kanban .main-flex .column-list,
+.dark .kanban .no-campaign .no-campaign-card {
+    background: var(--dark-background);
+    transition: var(--dark-transition);
+}
+
+.dark .kanban .channel-window .settings-header .input-search input,
+.dark .kanban .header .content-center .search input {
+    background: var(--dark-background-input);
+    color: var(--dark-font-white);
+    transition: var(--dark-transition);
+    border: solid 1px var(--dark-border);
+    transition: var(--dark-transition);
+}
+
+.dark .kanban .main-flex .campaign,
+.dark .kanban .main-flex .campaign .container-card .information .box-right .title textarea {
+    background: var(--dark-card);
+    transition: var(--dark-transition);
+}
+
+.dark #modal-campaign .modal-body .box-left .content-info .box-preview .group-info .poll-show-votes,
+.dark .kanban .main-flex .campaign .footer-card {
+    border-top: solid 1px var(--dark-border);
+    transition: var(--dark-transition);
+}
+
+.dark #modal-campaign .modal-body .box-right .content-title,
+.dark #modal-campaign .modal-body .box-right .content-date,
+.dark #modal-campaign .modal-body .box-right .content-hour,
+.dark #modal-campaign .modal-body .box-right .content-channel,
+.dark .kanban .channel-window .all-channels,
+.dark .kanban .settings-option-modal .settings-header {
+    border-bottom: 1px solid var(--dark-border);
+    transition: var(--dark-transition);
+}
+
+.dark #modal-campaign .modal-body .box-left .content-info,
+.dark #modal-campaign .modal-body .box-left .box-template {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15), 0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
+}
+
+.dark #modal-campaign .modal-body .box-right .content-notice .group-info.warning,
+.dark #modal-campaign .modal-body .box-left .desc-campaign,
+.dark #modal-campaign .modal-body .box-left .content-info,
+.dark #modal-campaign .modal-body .box-left .box-template,
+.dark #modal-campaign .modal-body .box-left .box-template .body-template,
+.dark #modal-campaign .modal-body .box-right .content-status .box-status {
+    background: #1D2125;
+}
+
+.dark #modal-campaign .modal-body .box-left .box-template .content-template .buttons-phone-url {
+    color: #00a5f4;
+
+}
+
+.dark #modal-campaign .modal-body .box-left .box-template .content-template .button-hr,
+.dark #modal-campaign .modal-body .box-left .box-template .content-template .buttons-quick-reply-container .btn-quick-reply {
+    background-color: #3d4750;
+}
+
+.dark .kanban .channel-window .list-channel .channel-item.selected-channel {
+    background: var(--dark-hover);
+}
+
+.dark .kanban .main-flex .campaign:hover,
+.dark .kanban .main-flex .campaign:hover .container-card .information .box-right .title textarea {
+    background: #282e34;
+}
+
+.dark .kanban .channel-window .list-channel .channel-item:hover,
+.dark .kanban .channel-window .all-channels .channel-item:hover,
+.dark .kanban .settings-option-modal .settings-body .internal-content-theme .option-theme:hover,
+.dark .kanban .settings-option-modal .settings-body .internal-content-options .option:hover {
+    background: var(--dark-hover);
+}
+
+.dark .modal-alert .buttom-box .btn-to-close,
+.dark .modal-alert .buttom-box .btn-no,
+.dark .modal-alert .title-box span,
+.dark #modal-campaign .modal-body .box-left .content-info .box-preview .group-info .poll-response-number,
+.dark #modal-campaign .modal-body .box-left .content-info .box-preview .group-info .poll-option,
+.dark #modal-campaign .modal-body .box-left .content-info .box-preview .group-info .poll-question,
+.dark #modal-campaign .modal-body .box-left .desc-campaign,
+.dark #modal-campaign .modal-footer .btn-modal-kanban,
+.dark .kanban .modal-content .box-right *,
+.dark .kanban .modal-content .box-left .box-template .content-template .header-template,
+.dark .kanban .modal-content .box-left .box-template .content-template .body-template span,
+.dark .kanban .modal-content .box-left .box-template .content-template .footer-template,
+.dark .kanban .filter .filter-item .information span:first-child,
+.dark .kanban .channel-window .settings-header .title,
+.dark .kanban .channel-window .all-channels .information span,
+.dark .kanban .container-fluid .card .count-card,
+.dark .kanban .list-channel .information .channel-name,
+.dark .kanban .filter .filter-item .information span.all-channels,
+.dark .kanban .settings-option-modal .settings-body .internal-content-theme .option-theme label,
+.dark .kanban .settings-option-modal .settings-body .internal-content-options .option,
+.dark .kanban .settings-option-modal .settings-header span,
+.dark .kanban .header .content-right .filter .box-filter .channel .text,
+.dark .kanban .main-flex .campaign .container-card .information .box-right .title span,
+.dark .kanban .main-flex .campaign .container-card .information .box-right .title textarea,
+.dark .font-weight-title {
+    color: var(--dark-font-light-gray);
+}
+
+.dark .kanban .filter .filter-item .information span.all-channels,
+.dark .kanban .header .content-left .time span {
+    color: #b6c2cf;
+}
+
+.dark #modal-campaign .modal-body .box-left .content-info .box-preview .group-info .poll-show-votes,
+.dark #modal-campaign .modal-body .box-left .content-info .box-preview .group-info .poll-multiple-answers,
+.dark .kanban .no-campaign .box-right span,
+.dark .modal-alert .description-box span,
+.dark .kanban .filter .filter-item .information span:last-child,
+.dark .kanban .list-channel .information .channel-id,
+.dark .kanban .header .content-right .filter .box-filter .channel .number,
+.dark .kanban .main-flex .column-list>div {
+    color: var(--dark-font-gray);
+    transition: var(--dark-transition);
+}
+
+.dark .kanban .main-flex .column-list:hover {
+    color: #454545;
+    transition: var(--dark-transition);
+}
+
+.dark .kanban .header .content-left .logo img {
+    filter: brightness(0) invert(1);
+    transition: var(--dark-transition);
+}
+
+.dark .kanban .modal-content,
+.dark .kanban .channel-window,
+.dark .kanban .settings-option-modal {
+    box-shadow: var(--dark-shadow-overlay, 0 8px 16px -4px rgba(9, 30, 66, 0.25), 0 0 0 1px rgba(9, 30, 66, 0.08));
+    background: var(--dark-background-modal);
+    border-top: solid 1px var(--dark-border);
+    transition: var(--dark-transition);
+}
+
+.dark .modal-alert,
+.dark #modal-campaign .modal-body .box-left .content-story,
+.dark #modal-campaign .modal-body .group-buttons button:first-child {
+    background: var(--dark-background-modal);
+}
+
+.dark #modal-campaign .modal-body .box-right textarea,
+.dark #modal-campaign .modal-body .box-right input {
+    background: var(--dark-background-modal);
+    color: var(--dark-font-gray);
+}
+
+.dark .group-info input[type="date"]::-webkit-calendar-picker-indicator,
+.dark .group-info input[type="time"]::-webkit-calendar-picker-indicator,
+.dark #modal-campaign .icon-edit,
+.dark .kanban .channel-window .settings-header .icon-search,
+.dark .kanban .header .content-center .search .icon-clear,
+.dark .kanban .channel-window .settings-header .icon-clear,
+.dark .kanban .settings-option-modal .settings-header .close,
+.dark .kanban .settings-option-modal .settings-body .internal-content-options .option .box-icon img,
+.dark .kanban .header .content-center .search .icon-search,
+.dark .kanban .header .content-right .settings-icon {
+    filter: grayscale(1) invert(1);
+    transition: var(--dark-transition);
+}
+
+.dark .kanban .settings-option-modal .settings-body .internal-content-wallpape .color-grid .item {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+}
+
+.dark .modal-alert .buttom-box .btn-to-close,
+.dark .modal-alert .buttom-box .btn-no,
+.dark #modal-campaign .modal-footer .btn-modal-kanban {
+    background: var(--dark-neutral);
+}
+
+.dark .modal-alert .buttom-box .btn-to-close:hover,
+.dark .modal-alert .buttom-box .btn-no:hover,
+.dark #modal-campaign .modal-body .group-buttons button:first-child:hover,
+.dark #modal-campaign .modal-footer .btn-modal-kanban:hover {
+    background: var(--dark-neutral-hover);
+}
+
+.dark #modal-campaign .modal-body .content-story .group-buttons button:first-child:hover {
+    background: var(--dark-background-modal);
+}
+
+.dark #modal-campaign .modal-body .box-left .content-info .box-preview .group-info .poll-container .poll-body .poll-checkbox {
+    border: 1px solid var(--dark-font-light-gray);
+}
+
+.dark #modal-campaign .modal-body .box-left .content-info .box-preview .group-info .poll-container .poll-progress-bar {
+    background-color: #14171a;
+}

@@ -1,0 +1,185 @@
+.talkall {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    border-radius: 20px;
+    right: 30px;
+    background-image: url("../img/widget.png");
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.talkall span {
+    background-image: url("../img/widget.png");
+}
+
+.talkall-widget {
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    width: 400px;
+    height: 600px;
+    background: white;
+    border-radius: 5px 5px 0px 0px;
+    display: block;
+    box-shadow: 0 12px 20px 0 rgba(0, 0, 0, .15)!important;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.talkall-widget .title {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 84px;
+}
+
+.talkall-widget .title .drdv2 {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(125deg, #1972F5 -10%, #004AB5 100%) !important;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.talkall-widget .body {
+    width: 100%;
+    height: calc(100% - 84px);
+    float: left;
+}
+
+.talkall-widget .body .messages {
+    width: 100%;
+    height: 85%;
+    float: left;
+    background: #F5F8FB !important;
+    overflow: auto;
+}
+
+.talkall-widget .body .messages .item {
+    float: left;
+    margin-top: 3px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    height: auto;
+    position: relative;
+    width: 95%;
+}
+
+.talkall-widget .body .messages .item .textMessage {
+    width: auto;
+    float: right;
+    margin-right: 10px;
+    background: #0084ff;
+    font-size: 14px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 18px;
+    color: white;
+    max-width: 40%;
+    font-size: 14.2px;
+    line-height: 19px;
+    position: relative;
+}
+
+.talkall-widget .body .messages .item .textMessage .time {
+    float: right;
+    margin-left: 20px;
+    font-size: 10px;
+    margin-top: 4px;
+}
+
+.talkall-widget .body .messages .item .AudioMessage {
+    width: auto;
+    float: right;
+    margin-right: 10px;
+    background: #0084ff;
+    font-size: 14px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 18px;
+    color: white;
+    max-width: 40%;
+    font-size: 14.2px;
+    line-height: 19px;
+    position: relative;
+}
+
+.talkall-widget .body .messages .item .AudioMessage svg {
+    float: right;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.talkall-widget .body .messages .item .AudioMessage .time {
+    float: right;
+    margin-left: 20px;
+    font-size: 10px;
+    margin-top: 4px;
+}
+
+.talkall-widget .body .messages .item .ImageMessage {
+    width: auto;
+    float: right;
+    margin-right: 10px;
+    background: #0084ff;
+    font-size: 14px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 18px;
+    color: white;
+    max-width: 40%;
+    font-size: 14.2px;
+    line-height: 19px;
+    position: relative;
+}
+
+.talkall-widget .body .messages .item .ImageMessage svg {
+    float: right;
+    margin-top: 5px;
+    margin-left: 10px;
+    position: absolute;
+    right: 11px;
+    bottom: 9px;
+}
+
+.talkall-widget .body .messages .item .ImageMessage .time {
+    float: right;
+    margin-left: 20px;
+    font-size: 10px;
+    margin-top: 4px;
+    position: absolute;
+    right: 35px;
+    bottom: 9px;
+}
+
+.talkall-widget .body .input {
+    width: 100%;
+    height: 15%;
+    float: left;
+}
+
+.talkall-widget .body input[type=text] {
+    width: 80%;
+    height: 100%;
+    float: left;
+    background: 0 0!important;
+    background-image: initial !important;
+    background-position-x: 0px !important;
+    background-position-y: 0px !important;
+    background-size: initial !important;
+    background-attachment: initial !important;
+    background-origin: initial !important;
+    background-clip: initial !important;
+    background-color: initial !important;
+    color: #191919!important;
+    border: 0!important;
+    border-bottom: 1px solid #EBF5FD!important;
+    outline-style: none!important;
+    font-size: 16.2px!important;
+    padding: 5px 0 0px 30px!important;
+}

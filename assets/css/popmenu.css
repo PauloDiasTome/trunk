@@ -1,0 +1,45 @@
+.dropdown {
+    position: absolute;
+    cursor: pointer;
+    font-size: 18px;
+    height: 14px;
+    right: 13px;
+}
+
+.popmenu {
+    position: relative;
+    width: auto;
+    float: left;
+    height: auto;
+    display: block;
+    background: #f4f4f4;
+    max-width: 320px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px #00000080;
+}
+
+/* .popmenu .item{
+    float: left;
+    padding: 8px 8px 8px 0px;
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 14px;
+} */
+
+.popmenu .item:hover {
+    cursor: pointer;
+}
+
+.popmenu .pop_item:hover {
+    background-color: #e9e8e8;
+}
+
+.pop_item {
+    cursor: pointer;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 7px;
+    padding-bottom: 9px;
+}

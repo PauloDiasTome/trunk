@@ -1,0 +1,484 @@
+:root {
+    --dark-background: #101204;
+    --dark-background-modal: #282E33;
+    --dark-card: #22272B;
+    --dark-border: #A6C5E229;
+    --dark-font-white: #ffffff;
+    --dark-font-gray: #798394;
+    --dark-font-light-gray: #b6c2cf;
+    --dark-hover: #A1BDD914;
+    --dark-neutral: #A1BDD914;
+    --dark-neutral-hover: #A6C5E229;
+    --dark-shadow-overlay: inset 0px 0px 0px 1px #BCD6F01F, 0px 8px 12px #0304045C, 0px 0px 1px #03040480;
+    --dark-input-placeholder: #8C9BAB;
+    --dark-background-input: #22272B;
+    --dark-transition: all 0.3s ease-out;
+}
+
+.dark .kanban .header {
+    border: none;
+}
+
+.dark .kanban .header,
+.dark .kanban .user-window,
+.dark .kanban .container-fluid .card,
+.dark .kanban .main-flex .column-list {
+    background: var(--dark-background);
+    transition: var(--dark-transition);
+}
+
+.dark .kanban .user-window .settings-header .input-search input,
+.dark .kanban .header .content-center .search input {
+    background: var(--dark-background-input);
+    color: var(--dark-font-white);
+    transition: var(--dark-transition);
+    border: solid 1px var(--dark-border);
+    transition: var(--dark-transition);
+}
+
+.dark .kanban .main-flex .attendance {
+    background: var(--dark-card);
+    transition: var(--dark-transition);
+}
+
+.dark .kanban .main-flex .campaign .footer-card {
+    border-top: solid 1px var(--dark-border);
+    transition: var(--dark-transition);
+}
+
+.dark .tooltips-contact {
+    background-color: var(--dark-card);
+    color: var(--dark-font-light-gray);
+    box-shadow: #b6c2cf 0px 0px 7px -3px;
+}
+
+.dark .tooltips-contact .pop-copy {
+    background-color: var(--dark-card);
+    color: var(--dark-font-light-gray);
+    box-shadow: #b6c2cf 0px 0px 7px -3px;
+    border-top: none;
+}
+
+.dark .modal-body .box-right,
+.dark .kanban .settings-option-modal .settings-header {
+    border-bottom: 1px solid var(--dark-border);
+    transition: var(--dark-transition);
+}
+
+.dark .modal-body .box-left {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15), 0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
+}
+
+.dark #modal-chat .modal-header {
+    border-bottom: 1px solid #91939529;
+}
+
+.dark #modal-chat .modal-footer {
+    border-top: 1px solid #91939529;
+}
+
+.dark #modal-chat .modal-footer #modal__select-sector,
+.dark #modal-chat .modal-footer #modal__select-attendance,
+.dark .modal-body .box-right,
+.dark .modal-body .box-left {
+    background: #1D2125;
+}
+
+.dark .kanban .user-window .list-users .user-item.selected-user {
+    background: var(--dark-hover);
+}
+
+.dark .kanban .user-window .list-users .user-item .box .ball {
+    background: #2b3135;
+    color: #fff;
+}
+
+.dark .kanban .user-window .list-users .user-item .box .ball.online {
+    background: #2263d3;
+    color: #fff;
+}
+
+.dark .kanban .main-flex .attendance:hover {
+    background: #282e34;
+}
+
+.dark .kanban .tooltips .rows:hover:hover,
+.dark .kanban .tooltips-user .rows:hover:hover {
+    background: var(--dark-hover);
+}
+
+.dark .kanban .user-window .list-users .user-item:hover,
+.dark .kanban .user-window .all-users .user-item:hover,
+.dark .kanban .settings-option-modal .settings-body .internal-content-theme .option-theme:hover,
+.dark .kanban .settings-option-modal .settings-body .internal-content-options .option:hover {
+    background: var(--dark-hover);
+}
+
+.dark #modal-chat .modal-footer #modal__btn-concluded,
+.dark #modal-chat .modal-footer .sector label,
+.dark .kanban .tooltips .rows .option,
+.dark .kanban .tooltips-user .rows .option,
+.dark #modal-chat .modal-footer .attendance label,
+.dark #modal-chat .modal-footer #modal__btn-cancel,
+.dark #modal-chat .modal-footer #modal__select-sector,
+.dark #modal-chat .modal-footer #modal__select-attendance,
+.dark #modal-chat .modal-footer #modal__btn-transfer,
+.dark .modal-alert .buttom-box .btn-no,
+.dark .modal-alert span,
+.dark #modal__label .more-tags,
+.dark .modal-header #modal__status,
+.dark .kanban .filter .filter-item .information span:first-child,
+.dark .kanban .user-window .all-users .information span,
+.dark .kanban .container-fluid .card .count-card,
+.dark .kanban .list-users .information .user-name,
+.dark .kanban .filter .filter-item .information span.all-users,
+.dark .kanban .settings-option-modal .settings-body .internal-content-theme .option-theme label,
+.dark .kanban .settings-option-modal .settings-body .internal-content-options .option,
+.dark .kanban .settings-option-modal .settings-header span,
+.dark .kanban .header .content-right .filter .box-filter .text,
+.dark .kanban .main-flex .attendance .top .tags .more-tags,
+.dark .kanban .main-flex .attendance .container .box-right .info span:first-child,
+.dark .kanban .main-flex .attendance .container .box-left .info span:first-child,
+.dark .kanban .tooltips .rows option,
+.dark .kanban .tooltips-user .rows option,
+.dark .font-weight-bold,
+.dark .font-weight-title {
+    color: var(--dark-font-light-gray);
+}
+
+.dark #modal-chat .modal-body .storyMentionMessage .title,
+.dark #modal-chat .modal-body .textMessage .referral .container .text,
+.dark #modal-chat .modal-body .textMessage .referral .container .title,
+.dark .kanban .no-attendance .box-right span,
+.dark .modal-alert .description-box span,
+.dark .kanban .filter .filter-item .information span:last-child,
+.dark .kanban .list-users .information,
+.dark .font-weight-400,
+.dark .close>span:not(.sr-only),
+.dark .kanban .main-flex .column-list>div {
+    color: var(--dark-font-gray);
+    transition: var(--dark-transition);
+}
+
+.dark .kanban .main-flex .column-list:hover {
+    color: #454545;
+    transition: var(--dark-transition);
+}
+
+.dark .kanban .header .content-left .logo img {
+    filter: brightness(0) invert(1);
+    transition: var(--dark-transition);
+}
+
+.dark .kanban .modal-content,
+.dark .kanban .tooltips,
+.dark .kanban .tooltips-user,
+.dark .modal-alert,
+.dark .kanban .settings-option-modal {
+    box-shadow: var(--dark-shadow-overlay, 0 8px 16px -4px rgba(9, 30, 66, 0.25), 0 0 0 1px rgba(9, 30, 66, 0.08));
+    background: var(--dark-background-modal);
+    border-top: solid 1px var(--dark-border);
+    transition: var(--dark-transition);
+}
+
+.dark .kanban .tooltips,
+.dark .kanban .tooltips-user,
+.dark .modal-header .box-left,
+.dark .modal-header .group-buttons button:first-child {
+    background: var(--dark-background-modal);
+}
+
+.dark .modal-header .box-right textarea,
+.dark .modal-header .box-right input {
+    background: var(--dark-background-modal);
+    color: var(--dark-font-gray);
+}
+
+.dark .kanban .user-window .settings-header .icon-clear,
+.dark .kanban .tooltips .rows .icons,
+.dark .kanban .tooltips-user .rows .icons,
+.dark .kanban .user-window .settings-header .icon-search,
+.dark .kanban .header .content-center .search .icon-clear,
+.dark .kanban .header .content-center .search .icon-battery,
+.dark .kanban .settings-header .input-search .icon-filter-user,
+.dark .kanban .settings-option-modal .settings-header .close,
+.dark .kanban .header .content-right .filter .filter-item .information img,
+.dark .kanban .settings-option-modal .settings-body .internal-content-options .option .box-icon img,
+.dark .kanban .header .content-center .search .icon-search,
+.dark .kanban .header .content-right .settings-icon {
+    filter: grayscale(1) invert(1);
+    transition: var(--dark-transition);
+}
+
+.dark .kanban .settings-option-modal .settings-body .internal-content-wallpape .color-grid .item {
+    color: var(--dark-font-light-gray);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+}
+
+.dark #modal-chat .modal-footer #modal__btn-concluded,
+.dark #modal-chat .modal-footer #modal__btn-transfer,
+.dark #modal-chat .modal-footer #modal__btn-cancel,
+.dark .modal-alert .buttom-box .btn-to-close,
+.dark .modal-alert .buttom-box .btn-no,
+.dark .modal-footer .btn-modal-kanban {
+    background: var(--dark-neutral);
+}
+
+.dark #modal-chat .modal-footer #modal__btn-concluded:hover,
+.dark #modal-chat .modal-footer #modal__btn-transfer:hover,
+.dark #modal-chat .modal-footer #modal__btn-cancel:hover,
+.dark .modal-alert .buttom-box .btn-to-close:hover,
+.dark .modal-alert .buttom-box .btn-no:hover,
+.dark .modal-body .group-buttons button:first-child:hover,
+.dark .modal-footer .btn-modal-kanban:hover {
+    background: var(--dark-neutral-hover);
+}
+
+.dark #modal-chat .modal-footer #modal__select-sector,
+.dark #modal-chat .modal-footer #modal__select-attendance {
+    border: none;
+}
+
+.dark #modal-chat .modal-body .storyMentionMessage.left-side .body .detail,
+.dark #modal-chat .modal-body .imageMessage.left-side .body .detail,
+.dark #modal-chat .modal-body .locationMessage.left-side .body .detail,
+.dark #modal-chat .modal-body .videoMessage.left-side .body .detail {
+    background: linear-gradient(to right, rgb(243 12 12 / 0%) 0%, rgb(32 44 51) 88%);
+}
+
+.dark #modal-chat .modal-body .imageMessage.right-side .body .detail,
+.dark #modal-chat .modal-body .locationMessage.right-side .body .detail,
+.dark #modal-chat .modal-body .videoMessage.right-side .body .detail {
+    background: linear-gradient(to right, rgb(243 12 12 / 0%) 0%, rgb(0, 92, 77) 88%);
+}
+
+.dark #modal-chat .modal-header .channel span {
+    color: var(--dark-font-gray);
+}
+
+.dark #modal-chat .modal-header .profile #modal__profile-user,
+.dark #modal-chat .modal-header .profile #modal__profile-contact {
+    border: solid 1px var(--dark-border);
+}
+
+.dark #modal-chat .modal-body .interactiveMessage .bottom {
+    border-top: solid 1px var(--dark-border);
+}
+
+.dark #modal-chat .modal-body .messages::-webkit-scrollbar,
+.dark #modal-chat .modal-body .messages::-webkit-scrollbar-thumb {
+    color: #282e33d1;
+
+}
+
+.dark #modal-chat .modal-body .interactiveMessage .body .time,
+.dark #modal-chat .modal-body .interactiveMessage .body .text-footer-interactive,
+.dark #modal-chat .modal-body .textMessage .body .time,
+.dark #modal-chat .modal-body .revokeMessage .body .time {
+    color: var(--dark-font-light-gray);
+}
+
+.dark #modal-chat .modal-body .interactiveMessage .body .text-header-interactive,
+.dark #modal-chat .modal-body .interactiveMessage .body .text-body-interactive,
+.dark #modal-chat .modal-body .revokeMessage .text,
+.dark #modal-chat .modal-body .revokeMessage svg,
+.dark #modal-list-interactive .modal-title,
+.dark #modal-list-interactive .modal-body .section-list-container .row-list-container .title-list {
+    color: var(--dark-font-white);
+}
+
+.dark #modal-list-interactive .modal-body .section-list-container .row-list-container .description-list {
+    color: var(--dark-font-gray);
+}
+
+.dark #modal-list-interactive .modal-header {
+    border-bottom: solid 1px var(--dark-border);
+}
+
+.dark #modal-list-interactive .modal-body .section-list-container .row-list-container:hover {
+    background: var(--dark-hover);
+}
+
+.dark #modal-chat .modal-body .top .tail-right {
+    fill: #005c4d;
+}
+
+.dark #modal-chat .modal-body .top .tail-left {
+    fill: #202c33;
+}
+
+.dark #modal-chat .modal-body .messages .left-side {
+    background: #202c33;
+}
+
+.dark #modal-chat .modal-body .messages .right-side {
+    background: #005c4d;
+}
+
+.dark #modal-chat .modal-body .messages .item .reaction-box {
+    background-color: #363c3f;
+}
+
+.dark #modal-chat .modal-body .audioMessage .body .time,
+.dark #modal-chat .modal-body .storyMentionMessage .body .time,
+.dark #modal-chat .modal-body .contactMessage .body .time,
+.dark #modal-chat .modal-body .documentMessage .body .time,
+.dark #modal-chat .modal-body .imageMessage .body .time,
+.dark #modal-chat .modal-body .locationMessage .body .time,
+.dark #modal-chat .modal-body .videoMessage .body .time,
+.dark #modal-chat .modal-body .textMessage .body .time {
+    color: var(--dark-font-light-gray);
+}
+
+.dark #modal-chat .modal-body .top .quoted span,
+.dark #modal-chat .modal-body .storyMentionMessage .body .text,
+.dark #modal-chat .modal-body .contactMessage .body .info .group .text,
+.dark #modal-chat .modal-body .contactMessage .body .info .group .cell,
+.dark #modal-chat .modal-body .documentMessage .body ._container span,
+.dark #modal-chat .modal-body .imageMessage .body .text,
+.dark #modal-chat .modal-body .locationMessage .body .text,
+.dark #modal-chat .modal-body .videoMessage .body .text,
+.dark #modal-chat .modal-body .textMessage .body .text {
+    color: #fff
+}
+
+.dark #modal-chat .modal-body .textMessage .referral .container {
+    background-color: #161f2499;
+}
+
+.dark #modal-chat .modal-body .top .quoted {
+    background: #494848b8;
+}
+
+.dark #modal-chat .modal-body .messages .transferMessage span,
+.dark #modal-chat .modal-body .messages .attendanceMessage span,
+.dark #modal-chat .modal-body .messages .protocolMessage span,
+.dark #modal-chat .modal-body .messages .startMessage span,
+.dark #modal-chat .modal-body .messages .waitMessage span,
+.dark #modal-chat .modal-body .messages .closedMessage span,
+.dark #modal-chat .modal-body .messages .lastDateMessage span {
+    color: var(--dark-font-light-gray);
+    background: #315062a8;
+}
+
+.dark .focus {
+    background-color: #0e3274 !important;
+}
+
+.dark .focus-svg {
+    fill: #0e3274 !important;
+}
+
+.dark .focus-detail {
+    background: linear-gradient(to right, rgb(243 12 12 / 0%) 0%, rgb(15 50 116) 88%) !important;
+}
+
+.dark .flow-modal-body {
+    padding: 24px;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 380px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    animation: slideUp 0.3s ease;
+    position: relative;
+    background-color: #000000;
+}
+
+.dark .flow-modal-title {
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    color: #e9ecef;
+    font-weight: 700;
+    border-bottom: 2px solid #4d4d4d;
+    padding-bottom: 12px;
+    padding-right: 40px;
+}
+
+.dark .modal-section {
+    background-color: #1c1c1c;
+    padding: 14px;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    border-left: 4px solid #2263d3;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.dark .modal-stars {
+    font-size: 28px;
+    letter-spacing: 4px;
+    margin-left: 8px;
+}
+
+.dark .modal-label {
+    font-size: 12px;
+    color: #6c757d;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.dark .modal-value {
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.dark .modal-close-x {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 32px;
+    height: 32px;
+    border: none;
+    background-color: transparent;
+    color: #adb5bd;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.dark .modal-close-x:hover {
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+.dark .modal-close-x:active {
+    transform: scale(0.95);
+}

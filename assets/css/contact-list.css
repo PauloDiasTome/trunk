@@ -1,0 +1,149 @@
+.contact-list {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    overflow-x: none;
+}
+
+.contact-list .item {
+    width: 100%;
+    height: 58px;
+    float: left;
+    cursor: pointer;
+}
+
+.contact-list .item-selected {
+    width: 100%;
+    height: 58px;
+    float: left;
+    cursor: pointer;
+}
+
+.contact-list .item:hover {
+    background: RGB(243, 244, 244);
+}
+
+.contact-list .item-selected:hover {
+    background: RGB(243, 244, 244);
+}
+
+.count_character {
+    font-size: .875rem;
+    color: #ff0000;
+}
+
+.dataTables_filter {
+    display: none;
+}
+
+.kt-marginless {
+    margin: 0 !important;
+}
+
+.kt-user-card-v2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.kt-user-card-v2 .kt-user-card-v2__pic {
+    padding-right: 0.5rem;
+}
+
+.kt-user-card-v2 .kt-user-card-v2__details {
+    line-height: 0;
+}
+
+.kt-user-card-v2 .kt-user-card-v2__details .kt-user-card-v2__name {
+    display: block;
+    line-height: 1.5rem;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+    color: #595d6e;
+}
+
+.kt-user-card-v2 .kt-user-card-v2__details .kt-user-card-v2__email {
+    margin-top: 3px;
+    display: inline-block;
+    line-height: 1rem;
+    color: #74788d;
+}
+
+.kt-user-card-v2 .kt-user-card-v2__details a.kt-user-card-v2__email:hover {
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+    color: #5d78ff;
+}
+
+.kt-link {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    color: #5d78ff;
+}
+
+.kt-link:after {
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 1rem;
+    left: 0;
+    width: 0%;
+    -webkit-transition: width 0.3s ease;
+    transition: width 0.3s ease;
+}
+
+.kt-link:hover {
+    text-decoration: none !important;
+}
+
+.kt-link:hover:after {
+    width: 100%;
+}
+
+.kt-link:hover {
+    color: #5e72e4;
+    ;
+}
+
+.kt-link:hover:after {
+    border-bottom: 1px solid #5e72e4;
+    ;
+    opacity: 0.3;
+}
+
+.label-tag, .status-tag {
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 12px !important;
+    border-radius: 3px;
+    display: inline-block;
+    /* cursor: pointer; */
+}
+
+.label-text, .status-text {
+    color: black;
+}
+
+.label-open {
+    background: red;
+    padding: 5px 5px 5px 5px;
+    color: white;
+    text-align: left;
+}
+
+.label-close {
+    background: green;
+    padding: 5px 5px 5px 5px;
+    color: white;
+    text-align: left;
+}

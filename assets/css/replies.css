@@ -1,0 +1,323 @@
+.box-img .container {
+    width: 100%;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+    height: 150px;
+    border: solid 1px #d8d8d8;
+    transition: 0.3s;
+}
+
+.box-img .text {
+    text-align: center;
+    margin-top: 29px;
+}
+
+.box-img .img {
+    text-align: center;
+}
+
+.box-img img {
+    margin-top: 11px;
+    width: 56px;
+}
+
+.box-img .container:hover {
+    width: 100.2%;
+    box-shadow: 0px 10px 15px 5px #b8b8b82b;
+}
+
+.count_caracter {
+    font-size: 14px;
+}
+
+.change_type_icon {
+    display: none;
+}
+
+.change_type_icon:hover {
+    cursor: pointer;
+}
+
+.change_type_icon img {
+    width: 25px;
+}
+
+.change_type_icon_img {
+    margin-bottom: -50px;
+    z-index: 1;
+}
+
+/*** INPUT FILES ***/
+
+.input-container {
+    text-align: center;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 6px;
+    padding-top: 13px;
+    background-color: #e6e5e5e0;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 1%);
+}
+
+.input-container .header .img {
+    float: left;
+}
+
+.check {
+    cursor: pointer;
+}
+
+/***  DropZ ***/
+
+.drop-broadcast {
+    width: 100%;
+    margin-top: 13px;
+    min-height: 245px;
+    padding-right: 8%;
+    padding-left: 13%;
+    border: 2px #dee2e6 dashed;
+    text-align: center;
+}
+
+.drop-broadcast .drop-inner-img {
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.drop-broadcast .drop-inner-img .drop-icon {
+    margin-top: 46px;
+    border-radius: 10px;
+    box-shadow: 9px 6px 5px rgb(50 50 50 / 66%);
+}
+
+.drop-broadcast .drop-inner-title {
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.drop-broadcast .drop-inner-text {
+    text-align: center;
+    font-size: 15px
+}
+
+.broadcast {
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 355px;
+}
+
+.box-broadcast {
+    padding: 6px;
+    border: solid 1px #e0e0e0;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 63%);
+}
+
+.broadcast-audio {
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 355px;
+}
+
+.box-broadcast-audio {
+    padding: 6px;
+    border: solid 1px #e0e0e0;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 63%);
+}
+
+.box-broadcast .box-inner {
+    border: solid 1px #dee2e6;
+    max-height: 275px;
+    min-height: 275px;
+    border-radius: 7px;
+    display: grid;
+    justify-content: center;
+}
+
+.box-broadcast .img-broadcast {
+    max-height: 100%;
+    max-width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.box-broadcast .img-broadcast::-webkit-scrollbar,
+.box-broadcast .img-broadcast::-webkit-scrollbar-thumb {
+    width: 4px;
+    color: #00000000;
+    border-radius: .375rem;
+}
+
+.box-broadcast .img-broadcast::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 0 4px !important;
+}
+
+.box-broadcast .img-broadcast .i_st {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.box-broadcast .img-broadcast .video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box-broadcast .img-broadcast .close-broadcast {
+    display: none;
+    position: absolute;
+    right: 31px;
+    margin-top: 9px;
+    width: 37px;
+    cursor: pointer;
+    background-color: white;
+    padding: 1px;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+.box-broadcast .textarea-status {
+    padding: 6px 6px 0px 2px;
+    background-color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.box-broadcast .textarea-status .tex-area {
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    min-height: 70px;
+    max-height: 600px;
+    padding-left: 8px;
+    border-radius: 5px;
+    border: solid 0px #b8b8b800;
+}
+
+.tex-area::-webkit-scrollbar,
+.tex-area::-webkit-scrollbar-thumb {
+    width: 6px;
+    color: #636363a6;
+    border-radius: .375rem;
+}
+
+.textarea-status::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 0 4px !important;
+}
+
+#tex_ar::placeholder {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.box-broadcast .box-inner .tail {
+    width: 63px;
+    height: 28px;
+    right: 24px;
+    top: 252px;
+    display: none;
+    margin-top: 11px;
+    position: absolute;
+    border-top-left-radius: 48px;
+    border-bottom-right-radius: 6px;
+    background: linear-gradient(to right, rgb(0 0 0 / -57%) 0%, rgb(0 0 0) 107%);
+}
+
+.box-broadcast .box-inner .tail-byte {
+    float: right;
+    font-size: 12px;
+    margin-top: 6px;
+    color: #ececec;
+    margin-right: 5px;
+}
+
+.box-broadcast .box-inner .main-content .title {
+    text-align: center;
+    position: absolute;
+    top: 49%;
+    left: 20%;
+    right: 19%;
+}
+
+.box-broadcast .box-inner .main-content .icon-audio {
+    text-align: center;
+    text-align: center;
+    position: absolute;
+    font-size: 42px;
+    top: 27%;
+    left: 20%;
+    right: 19%;
+}
+
+.box-broadcast .box-inner .main-content .audio {
+    position: absolute;
+    top: 66%;
+    left: 3%;
+    right: 3%;
+    width: 94%;
+}
+
+.audio-preview {
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 12px 14px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .08);
+}
+
+.audio-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 6px;
+}
+
+.audio-header i {
+    color: #7b61ff;
+}
+
+.audio-preview audio {
+    width: 100%;
+    height: 32px;
+}
+
+.audio-footer {
+    text-align: right;
+    font-size: 12px;
+    color: #888;
+    margin-top: 4px;
+}
+
+.audio-close {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #999;
+    font-weight: bold;
+}
+
+.audio-close:hover {
+    color: #ff4d4f;
+}

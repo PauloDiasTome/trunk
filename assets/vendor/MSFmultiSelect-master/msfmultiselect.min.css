@@ -1,0 +1,182 @@
+/* MSFmultiSelect v2.1 | Copyright (c) 2020 Mini Super Files | https://github.com/minisuperfiles/MSFmultiSelect/blob/master/LICENSE */
+
+.msf_multiselect_container {
+    display: inline-block
+}
+
+.msf_multiselect_container .msf_multiselect {
+    border: 1px solid #e4e4e4;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 240
+}
+
+.msf_multiselect li:focus, .msf_multiselect li:hover {
+    background-color: #c9c9c9
+}
+
+.msf_multiselect li.active {
+    background-color: #e5e5e5
+}
+
+.msf_multiselect li {
+    padding-left: 4px;
+    background-color: #fff;
+    cursor: pointer
+}
+
+.msf_multiselect_container textarea {
+    resize: none;
+    padding-left: 2px;
+    padding-top: 2px;
+    overflow: auto
+}
+
+.msf_multiselect_container .msf_multiselect {
+    max-height: 200px;
+    width: 97%;
+    overflow: auto;
+    background-color: #fff;
+    display: grid;
+    text-align: left
+}
+
+.msf_multiselect label {
+    display: block;
+    margin-bottom: 3px
+}
+
+.msf_multiselect_container .logger .selectedLabels {
+    padding: 1px 6px 1px 6px;
+    background: #f2f2f2;
+    border: 1px solid #e6e3e3;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 12px
+}
+
+.msf_multiselect_container .closeBtn {
+    padding-left: 4px;
+    cursor: pointer;
+    color: #ff6060
+}
+
+.msf_multiselect_container .closeBtn.readOnly {
+    cursor: unset
+}
+
+.msf_multiselect_container .hidden {
+    display: none!important
+}
+
+.msf_multiselect .searchbox {
+    width: -webkit-fill-available;
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    font-size: 12px;
+    width: 1022px;
+    border-radius: 6px;
+    border-top: solid 1px #e4e4e4;
+    border-left: solid 1px #e4e4e4;
+    border-right: solid 1px #e4e4e4;
+    border-bottom: solid 1px #c7c7c7;
+    border-radius: solid 1px white;
+}
+
+
+.msf_multiselect_container .msf_multiselect.offdropdown {
+    position: unset
+}
+
+.msf_multiselect::-webkit-scrollbar, .msf_multiselect::-webkit-scrollbar-thumb {
+    width: 6px;
+    color: #c7c7c7;
+    border-radius: .375rem;
+}
+
+.msf_multiselect::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 0 4px !important;
+}
+
+.cust_ {
+    width: 28px!important;
+    height: 16px;
+    background-color: green;
+    overflow: hidden;
+}
+
+.add {
+    margin-top: 41px!important;
+}
+
+.fixed {
+    position: absolute
+}
+
+@media only screen and (max-width: 1393px) {
+    .msf_multiselect .searchbox {
+        width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 1375px) {
+    .msf_multiselect .searchbox {
+        width: 980px;
+    }
+}
+
+@media only screen and (max-width: 1351px) {
+    .msf_multiselect .searchbox {
+        width: 960px;
+    }
+}
+
+@media only screen and (max-width: 1331px) {
+    .msf_multiselect .searchbox {
+        width: 940px;
+    }
+}
+
+@media only screen and (max-width: 1305px) {
+    .msf_multiselect .searchbox {
+        width: 920px;
+    }
+}
+
+@media only screen and (max-width: 1286px) {
+    .msf_multiselect .searchbox {
+        width: 900px;
+    }
+}
+
+@media only screen and (max-width: 1264px) {
+    .msf_multiselect .searchbox {
+        width: 880px;
+    }
+}
+
+@media only screen and (max-width: 1242px) {
+    .msf_multiselect .searchbox {
+        width: 860px;
+    }
+}
+
+@media only screen and (max-width: 1222px) {
+    .msf_multiselect .searchbox {
+        width: 840px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .msf_multiselect .searchbox {
+        width: 825px;
+    }
+}
+@media only screen and (max-width: 989px) {
+    .msf_multiselect .searchbox {
+        width: 600;
+    }
+}

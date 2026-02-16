@@ -1,0 +1,210 @@
+body,
+html {
+    font-family: Open Sans, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.tv {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    background-image: url("/assets/img/background/tv_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.tv .main-content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.left {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    overflow-y: hidden;
+}
+
+.left img {
+    width: 85%;
+    height: auto;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.right .container-code {
+    width: 68%;
+    min-height: 200px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 0.5rem;
+    background-color: #fff;
+}
+
+.right .container-code .box-text span:nth-child(1) {
+    color: #1D4ED8;
+    font-size: 1.9rem;
+    display: block;
+    font-weight: bold;
+    padding: 0.8rem 0;
+    padding-bottom: 0.8rem;
+}
+
+.right .container-code .box-text span:nth-child(2) {
+    font-size: 1.2rem;
+}
+
+.right .container-code .box-input {
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem 0;
+}
+
+.right .container-code .box-input input {
+    width: 16.66%;
+    height: 3.5rem;
+    outline: none;
+    border: solid 1px gray;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.alert-field-validation {
+    color: #BE185D;
+    font-size: 1rem;
+    margin-top: 2px;
+    display: none;
+    position: absolute;
+    bottom: 26px;
+}
+
+@media (orientation: portrait) {
+
+    @media screen and (min-height: 1920px) and (max-height: 2559px) {
+
+        body,
+        html {
+            font-size: 20px !important;
+        }
+
+    }
+
+    @media screen and (min-height: 2560px) and (max-height: 2559px) {
+
+        body,
+        html {
+            font-size: 30px !important;
+        }
+
+    }
+
+    @media screen and (min-height: 3551px) and (max-height: 6999px) {
+
+        body,
+        html {
+            font-size: 40px !important;
+        }
+    }
+
+    @media screen and (min-height: 7000px) {
+
+        body,
+        html {
+            font-size: 60px !important;
+        }
+    }
+
+    .tv .main-content {
+        flex-direction: column;
+    }
+
+    .right {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .right .container-code {
+        width: 62%;
+    }
+
+    .left {
+        width: auto;
+        height: auto;
+        display: flex;
+        overflow-y: hidden;
+        justify-content: end;
+        justify-content: center;
+    }
+
+    .left img {
+        width: 70%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1900px) and (max-width: 2559px) {
+
+    body,
+    html {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 2560px) and (max-width: 3550px) {
+
+    body,
+    html {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 3551px) and (max-width: 5119px) {
+
+    body,
+    html {
+        font-size: 30px;
+    }
+
+    .tv .main-content {
+        padding-top: 10%;
+    }
+}
+
+@media screen and (min-width: 5120px) {
+
+    body,
+    html {
+        font-size: 45px;
+    }
+
+    .tv .main-content {
+        padding-top: 10%;
+    }
+}

@@ -1,0 +1,168 @@
+:root {
+    --primary-color: #1264bc;
+    --secondary-color: #6c757d;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --weak-color: #dc3545;
+    --medium-color: #ffc107;
+    --strong-color: #28a745;
+    --background-color: #f4f6f9;
+    --card-background: #ffffff;
+    --border-color: #ced4da;
+    --text-color: #343a40;
+    --font-family: 'Arial', sans-serif;
+    --transition-speed: 0.3s;
+}
+
+
+body {
+    font-family: var(--font-family);
+    background: url("/assets/img/background_leads.webp");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: var(--text-color);
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card {
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 450px;
+    margin-top: 24vh;
+    text-align: center;
+}
+
+.card .check {
+    width: 60px;
+    height: 60px;
+    background-color: #0056ff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px auto;
+}
+
+.card .check::after {
+    content: '✔';
+    color: white;
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #1c1c1c;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #115eb1;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007bff;
+}
+
+.resend {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.resend a {
+    text-decoration: none;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+.whatsapp {
+    color: #28a745;
+}
+
+.sms {
+    color: #007bff;
+}
+
+.swal2-container {
+    position: fixed !important;
+    z-index: 99999 !important;
+    top: 0;
+    left: 0;
+}
+
+.swal-overlay {
+    position: fixed !important;
+}
+
+body.swal-open {
+    overflow: hidden;
+}
+
+body.swal2-shown {
+    overflow: hidden !important;
+}
+
+.page-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+:root {
+    --danger-color: #dc2525;
+}
+
+.error-message {
+    color: var(--danger-color);
+    font-size: 12px;
+    margin-top: -18px;
+    display: block;
+    min-height: 52px;
+}
+
+strong {
+    font-weight: 700;
+    color: #000;
+}
+
+.edit-phone {
+    margin-left: 6px;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 12px;
+    vertical-align: middle;
+    transition: color 0.2s ease;
+}
+
+.edit-phone:hover {
+    color: #0056b3;
+}

@@ -1,0 +1,143 @@
+.tutorial-modal-content {
+    border-radius: 12px;
+    padding: 24px 18px;
+}
+
+.tutorial-title {
+    color: #2263d3;
+    font-weight: 700;
+    margin-bottom: 12px;
+    font-size: 27px;
+}
+
+.tutorial-highlight {
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.tutorial-highlight strong {
+    color: #2263d3;
+}
+
+.tutorial-description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 16px;
+}
+
+.tutorial-features {
+    font-size: 13px;
+}
+
+.tutorial-features ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.tutorial-features li {
+    margin-bottom: 6px;
+}
+
+#modal-tutorial-welcome .btn-primary {
+    background: #2263d3;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.tutorial-icon {
+    margin-bottom: 6px;
+}
+
+.tutorial-title {
+    margin-bottom: 6px;
+    margin-top: 0;
+}
+
+.tutorial-highlight,
+.tutorial-description {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+/* Estilos para a lista de opções da Step 3 */
+
+.tutorial-status {
+    margin-top: 20px;
+}
+
+.tutorial-status-title {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.7;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.tutorial-status-subtitle {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.tutorial-phone {
+    font-family: Source Sans 3;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #2263d3;
+}
+
+/* Estilos para a lista de opções da Step 4 */
+.tutorial-options-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.tutorial-option-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #f0f5ff;
+    /* Fundo azul bem claro */
+    border-radius: 8px;
+    text-decoration: none !important;
+    transition: background 0.2s;
+    border: 1px solid transparent;
+}
+
+.tutorial-option-item:hover {
+    background-color: #e1ecff;
+    border-color: #2263d3;
+}
+
+.tutorial-option-text {
+    flex: 1;
+}
+
+.tutorial-option-text h5 {
+    color: #2263d3;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 4px 0;
+}
+
+.tutorial-option-text p {
+    color: #555;
+    font-size: 13px;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.tutorial-option-icon {
+    color: #2263d3;
+    font-size: 20px;
+    margin-left: 10px;
+}

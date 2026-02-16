@@ -1,0 +1,640 @@
+/* ----------------- ESTRUTURA GERAL ----------------- */
+.dark {
+	background-color: #000000;
+	color: #cccccc;
+}
+
+
+/* ----------------- MENU ESQUERDO ----------------- */
+.dark.messenger .left .find .search-contact .input-search-contact {
+	background-color: #000000;
+}
+
+.dark.messenger .list .itemSelected .contact-container,
+.dark.messenger .list .item .contact-container:hover {
+	background-color: #1b277c;
+}
+
+.dark.messenger .left .find,
+.dark.messenger .left .footer,
+.dark.messenger .left .settings-box,
+.dark.messenger .left .settings-header,
+.dark.messenger .left .body-settings ._btn,
+.dark.messenger .left.sub-settings-color .btnWallpaper.def {
+	background-color: #1d1d1d;
+}
+
+.dark.messenger .left .tabs .tab:hover,
+.dark.messenger .left .find .tool-setting-list:hover,
+.dark.messenger .left .find .tool-setting-list.last-item:hover,
+.dark.messenger .list-settings-messenger:hover {
+	background-color: #2f2f2f;
+}
+
+.dark.messenger .body-settings .container-shortcut,
+.dark.messenger .containerProfile,
+.dark.messenger .containerHelp,
+.dark.messenger .left .tabs,
+.dark.messenger .list_help,
+.dark.messenger .list_profile {
+	border-color: #1d1d1d;
+}
+
+.dark.messenger .body-settings ._btn {
+	border-color: #2f2f2f;
+}
+
+.dark.messenger .left .find .search-contact .input-search-contact::placeholder,
+.dark.messenger .left .list .item .contact-container .body .contact-footer {
+	color: #9a9a9a;
+}
+
+.dark.messenger .left,
+.dark.messenger .left .body-settings,
+.dark.messenger .left .body-settings .font-settings,
+.dark.messenger .left .find .tool-setting-list label,
+.dark.messenger .left .find .tool-setting-list.last-item label,
+.dark.messenger .left .find .search-contact .input-search-contact,
+.dark.messenger .left .footer span,
+.dark.messenger .left .settings-header,
+.dark.messenger .left .settings-theme,
+.dark.messenger .left .settings-font-size,
+.dark.messenger .list>div,
+.dark.messenger .list .item .contact-container .body .contact-footer .iconFixar,
+.dark.messenger .btnWallpaper.def {
+	color: #cccccc;
+}
+
+.dark.messenger .list .item .contact-container:hover .body .contact-header,
+.dark.messenger .list .item .contact-container:hover .body .contact-footer,
+.dark.messenger .list .item .contact-container:hover .body .contact-footer .iconFixar,
+.dark.messenger .list .item.itemSelected .contact-container .body .contact-header,
+.dark.messenger .list .item.itemSelected .contact-container .body .contact-footer,
+.dark.messenger .list .item.itemSelected .contact-container .body .contact-footer .iconFixar {
+	color: #ffffff;
+}
+
+.dark.messenger .left .find svg path,
+.dark.messenger .left .tool-setting-list svg path {
+	fill: #cccccc;
+}
+
+
+/* ----------------- MENU DIREITO ----------------- */
+.dark.messenger .option .note-contact .box-note textarea {
+	background-color: #000000;
+}
+
+.dark.messenger .window__favorite .starred-body .documentStarred .container .bodyDocument-left {
+	background-color: #141414;
+}
+
+.dark.messenger .window__gallery .doc-left,
+.dark.messenger .window__favorite .starred-body .starredMessage ._righ,
+.dark.messenger .option .info .label-contact-right #iconAddLabelInfo,
+.dark.messenger .option .note-contact .box-note button {
+	background-color: #1b277c;
+}
+
+.dark.messenger .window__favorite .starred-body .documentStarred .container .bodyDocument-right {
+	background-color: #172168;
+}
+
+.dark.popmenu,
+.dark.settings_star,
+.dark.messenger .option .head,
+.dark.messenger .option .note-contact .subtitle textarea,
+.dark.messenger .window__search .box-search .search-input {
+	background-color: #1d1d1d;
+}
+
+.dark.messenger .container-archive,
+.dark.messenger .container-message,
+.dark.messenger .container-document,
+.dark.messenger .container-location,
+.dark.messenger .container-contact,
+.dark.messenger .container-video,
+.dark.messenger .container-img,
+.dark.messenger .window__favorite .starred-body .starredMessage ._lef {
+	background-color: #1f1f1f;
+}
+
+.dark.messenger .option .info .hover-item-label:hover,
+.dark.messenger .option .options .button-chat-waiting:hover,
+.dark.messenger .option .options .button-chat-search:hover,
+.dark.messenger .option .options .button-chat-trans:hover,
+.dark.messenger .option .options .button-chat-spam:hover,
+.dark.messenger .option .options .button-chat-favorite:hover,
+.dark.messenger .option .options .button-chat-ticket:hover,
+.dark.messenger .option .note-contact .add-note-contact:hover,
+.dark.messenger .window__gallery .submenu-media-docs .submenu-media:hover,
+.dark.messenger .window__gallery .submenu-media-docs .submenu-documents:hover,
+.dark.messenger .window__gallery .container-documents:hover,
+.dark.messenger .window__gallery .doc-right,
+.dark.messenger .window__gallery .submenu-media-docs .submenu-media:hover,
+.dark.messenger .window__gallery .submenu-media-docs .submenu-documents:hover,
+.dark.messenger .window__gallery .container-documents:hover,
+.dark.messenger .window__search .body .list-message .item-searched:hover,
+.dark.settings_star:hover,
+.dark.popmenu .pop_item:hover,
+.darkMessenger .title-send-image,
+.darkMessenger .title-send-template,
+.darkMessenger .title-send-document {
+	background-color: #2f2f2f;
+}
+
+.dark.messenger .window__favorite .starred-body .starredMessage:hover {
+	background-color: #3f3f3f;
+}
+
+.dark.messenger .option .info,
+.dark.messenger .option .options,
+.dark.messenger .preview-gallery,
+.dark.messenger .window__gallery .submenu-media-docs,
+.dark.messenger .window__favorite .starred-body .starredMessage,
+.dark.messenger .window__search .box-search,
+.dark.messenger .window__search .body .list-message .item-searched,
+.darkMessenger .title-send-image,
+.darkMessenger .title-send-template,
+.darkMessenger .title-send-document {
+	border-color: #1d1d1d;
+}
+
+.dark.messenger .option .note-contact .box-note {
+	border-color: #2f2f2f;
+}
+
+.dark.messenger .window__favorite .starred-body .starredMessage .container .tail-out-right {
+	border-right-color: #1b277c;
+}
+
+.dark.messenger .window__favorite .starred-body .starredMessage .container .tail-out-left {
+	border-right-color: #1f1f1f;
+}
+
+.dark.messenger .window__search .box-search .search-input::placeholder,
+.dark.messenger .option .info .label-contact-right .item-label-hidden:hover {
+	color: #9a9a9a;
+}
+
+.dark.popmenu,
+.dark.settings_star,
+.dark.messenger .none_starred,
+.dark.messenger .option .head,
+.dark.messenger .option .body .number i,
+.dark.messenger .option .info .label-contact-right .item-label-hidden,
+.dark.messenger .option .note-contact .box-note textarea,
+.dark.messenger .option .note-contact .subtitle textarea,
+.dark.messenger .option .note-contact .subtitle i,
+.dark.messenger .window__favorite .starred-body .starredMessage ._lef,
+.dark.messenger .window__gallery .submenu-media-docs,
+.dark.messenger .window__gallery .container-documents .document-message-gallery.doc-right .box,
+.dark.messenger .window__search .body .span-search-empty,
+.dark.messenger .window__search .body .span-name-user-search,
+.dark.messenger .window__search .body .span-searched-message,
+.dark.messenger .window__search .body .list-message .text-search,
+.dark.messenger .window__search .box-search .search-input {
+	color: #cccccc;
+}
+
+.dark.messenger .option .head svg path,
+.dark.messenger .option .body .div-svg svg path,
+.dark.messenger .option .note-contact .add-note-contact svg path,
+.dark.messenger .window__search .box-search svg path,
+.dark.messenger .window__gallery .head .media-options .right-items .icon-arrow-download svg path,
+.dark.messenger .preview-gallery .openGallery svg path,
+.dark.messenger .container-document svg path {
+	fill: #cccccc;
+}
+
+.dark.messenger .option .body .button-chat-spam .div-svg svg path {
+	fill: #D60000;
+}
+
+
+/* ----------------- CHAT ----------------- */
+.dark.messenger .right .chat .messages .item .templateMessage .bodyDocument,
+.dark.messenger .right .chat .messages .item .DocumentMessage.right .bodyDocument {
+	background-color: #172168;
+}
+
+.dark.messenger .right .body .template-button,
+.dark.messenger .textMessage.right,
+.dark.messenger .revoke.right,
+.dark.messenger .ImageMessage.right,
+.dark.messenger .AudioMessage.right,
+.dark.messenger .DocumentMessage.right,
+.dark.messenger .ZipMessage.right,
+.dark.messenger .GifMessage.right,
+.dark.messenger .VideoMessage.right,
+.dark.messenger .ContactMessage.right,
+.dark.messenger .StickerMessage.right,
+.dark.messenger .item .right .buttonMessage .btnTemplate,
+.dark.messenger .item .right .buttonMessage .btnInteractive {
+	background-color: #1b277c;
+}
+
+.dark.messenger .right .media-preview-input-container input[type=text],
+.dark.messenger .right .media-preview .media-preview-send,
+.dark.messenger .right .chat .messages .item .information span,
+.dark.messenger .right .chat .messages .item .reaction-box,
+.dark.messenger .textMessage.left,
+.dark.messenger .ImageMessage.left,
+.dark.messenger .DocumentMessage.left,
+.dark.messenger .ZipMessage.Left,
+.dark.messenger .VideoMessage.Left,
+.dark.messenger .StoryMentionMessage.left,
+.dark.messenger .GifMessage.Left,
+.dark.messenger .StickerMessage.Left,
+.dark.messenger .AudioMessage.Left,
+.dark.messenger .LocationMessage.Left,
+.dark.messenger .ContactMessage.Left,
+.dark.messenger .revoke.Left,
+.dark.messenger .CardListMessage.left .dark.settings_star {
+	background-color: #141414;
+}
+
+.dark .media-preview,
+.dark.messenger .right .head .head-right .button,
+.dark.messenger .right .input .text,
+.dark.messenger .right .chat .field-ai .head,
+.dark.messenger .right .chat .field-ai .items,
+.dark.messenger .right .chat .ticket .head,
+.dark.messenger .right .chat .ticket .items {
+	background-color: #1d1d1d;
+}
+
+.dark.messenger .right .chat .messages .item .textMessage .response-flow,
+.dark.messenger .right .chat .messages .item .DocumentMessage.left .bodyDocument {
+	background-color: #1f1f1f;
+}
+
+.dark.messenger .right .media-preview .media-preview-send:hover,
+.dark.messenger .buttonBottomScroll,
+.dark.messenger .right .chat .ticket .items .item:hover,
+.darkMessenger .list-ai,
+.dark.messenger .right .chat .emojipicker {
+	background-color: #2f2f2f;
+}
+
+.darkMessenger .list-ai .select-ai .option-ai:hover {
+	background-color: #3f3f3f;
+}
+
+.dark.messenger .right .chat .messages .item .reaction-box {
+	border-color: #1d1d1d;
+}
+
+.dark.messenger .right .chat .field-ai .head,
+.dark.messenger .right .chat .field-ai .items,
+.dark.messenger .right .chat .ticket .head,
+.dark.messenger .right .chat .ticket .items .item span {
+	border-color: #2f2f2f;
+}
+
+.dark.messenger .right .chat .messages .item .information span,
+.dark.messenger .right .chat .messages .item .textMessage,
+.dark.messenger .right .chat .messages .item .AudioMessage,
+.dark.messenger .right .chat .messages .item .ImageMessage,
+.dark.messenger .right .chat .messages .item .VideoMessage,
+.dark.messenger .right .chat .messages .item .DocumentMessage,
+.dark.messenger .right .chat .messages .item .LocationMessage,
+.dark.messenger .right .chat .messages .item .ContactMessage {
+	box-shadow: -0.3px 1.2px 0.2px 0px rgba(44, 44, 44, 0.2);
+}
+
+.dark.messenger .right .media-preview-input-container input[type=text],
+.dark.messenger .right .media-preview-input-container input[type=text]::placeholder,
+.dark.messenger .right .media-preview .media-preview-send,
+.dark.messenger .right .input .text .input-text::placeholder,
+.dark.messenger .right .head .label-contact .label-hidden:hover {
+	color: #9a9a9a;
+}
+
+.dark.messenger .icon-starred,
+.dark.messenger .right .dropdown-left,
+.dark.messenger .right .head .caption,
+.dark.messenger .right .head .head-right .button,
+.dark.messenger .right .chat .field-ai .head,
+.dark.messenger .right .chat .messages .item .textMessage,
+.dark.messenger .right .chat .messages .item .VideoMessage,
+.dark.messenger .right .chat .messages .item .AudioMessage,
+.dark.messenger .right .chat .messages .item .ImageMessage,
+.dark.messenger .right .chat .messages .item .ContactMessage,
+.dark.messenger .right .chat .messages .item .DocumentMessage,
+.dark.messenger .right .chat .messages .item .information span,
+.dark.messenger .right .chat .messages .item .ContactMessage .bottom .time,
+.dark.messenger .right .chat .messages .item .DocumentMessage .body span,
+.dark.messenger .right .chat .messages .item .LocationMessage .locationAddress,
+.dark.messenger .right .chat .messages .item .templateMessage .bodyDocument span,
+.dark.messenger .buttonBottomScroll,
+.dark.messenger .right .chat .emojipicker .emoji-header .titleDark,
+.dark.messenger .right .chat .ticket .items .item span,
+.dark.messenger .right .chat .ticket .head {
+	color: #cccccc;
+}
+
+.dark.messenger .right .chat .messages .item .templateMessage .bodyDocument span,
+.dark.messenger .right .chat .messages .item .DocumentMessage.right .body span,
+.dark.messenger .icon-starred.white-star {
+	color: #ffffff;
+}
+
+.dark.messenger .tailOutMessageRight svg path {
+	fill: #1b277c;
+}
+
+.dark.messenger .tailOutMessageLeft svg path,
+.dark.messenger .right .input .message-send svg path.arrow {
+	fill: #141414;
+}
+
+.dark.messenger .right .media-preview .media-preview-close svg path,
+.dark.messenger .right .head .head-right .openSearch svg path,
+.dark.messenger .right .head .head-right .button svg path,
+.dark.messenger .right .head .label-contact .label-contact-tag svg path,
+.dark.messenger .right .input .message-send svg path,
+.dark.messenger .right .chat .field-ai .head svg path,
+.dark.messenger .right .chat .messages .item .DocumentMessage.left .bodyDocument svg path,
+.dark.messenger .right .chat .emojipicker .emoji-header .emoji svg path {
+	fill: #cccccc;
+}
+
+
+/* ----------------- MODAIS E ALERTAS ----------------- */
+.darkMessenger .modalBoxTemplete .preview-template,
+.darkMessenger .modalBoxTemplete .main-variable .variable-template .file,
+.darkMessenger .modalBoxTemplete .preview-template .button-preview-container .button-preview {
+	background-color: #141414;
+}
+
+.darkMessenger .swal2-popup,
+.dark.messenger .modalMessenger,
+.darkMessenger .def-modal,
+.darkMessenger .def-modal .def-input,
+.darkMessenger .def-modal .def-select,
+.darkMessenger .iti__country-list,
+.darkMessenger .def-modal .def-textarea,
+.darkMessenger .modalContactForward,
+.darkMessenger .modalBoxTemplete,
+.darkMessenger .modalBoxTemplete .body .select,
+.darkMessenger .modalBoxTemplete .body .list-template,
+.darkMessenger .modalBoxTemplete .main-variable .variable-template .group-variable .item,
+.darkMessenger .modalBoxTemplete .preview-template .box-arquive,
+.darkMessenger .team-modal {
+	background-color: #1d1d1d;
+}
+
+.darkMessenger .cancel,
+.dark.messenger .selectModal:hover,
+.darkMessenger .modalContactForward .search,
+.darkMessenger .def-modal .def-footer .def-btn-cancel,
+.darkMessenger .modalContactForward .body .cards-contact:hover,
+.darkMessenger .modalBoxTemplete .body .list-template .item:hover,
+.darkMessenger .team-modal .team-header .team-search input,
+.darkMessenger .team-modal .team-body .team-item:hover {
+	background-color: #2f2f2f;
+}
+
+.darkMessenger .def-modal .def-header,
+.darkMessenger .def-modal .def-input,
+.darkMessenger .def-modal .def-select,
+.darkMessenger .def-modal .def-footer .def-btn-cancel,
+.darkMessenger .def-modal .def-textarea,
+.darkMessenger .modalContactForward .header,
+.darkMessenger .modalContactForward .footer,
+.darkMessenger .modalBoxTemplete .header,
+.darkMessenger .modalBoxTemplete .footer,
+.darkMessenger .modalBoxTemplete .body .select,
+.darkMessenger .modalBoxTemplete .preview-template,
+.darkMessenger .modalBoxTemplete .preview-template .button-preview-container .button-preview,
+.darkMessenger .modalBoxTemplete .main-variable .variable-template .group-variable .item,
+.darkMessenger .modalBoxTemplete .main-variable .variable-template .file,
+.darkMessenger .modalBoxTemplete .preview-template .box-arquive,
+.darkMessenger .team-modal .team-header .inner-header,
+.darkMessenger .team-modal .team-body .team-item {
+	border-color: #2f2f2f;
+}
+
+.darkMessenger .modalContactForward .search input::placeholder,
+.darkMessenger .modalContactForward .search .icon-search-catalog,
+.darkMessenger .modalBoxTemplete .body .select::placeholder,
+.darkMessenger .modalBoxTemplete .preview-template .footer-msg,
+.darkMessenger .modalBoxTemplete .main-variable .variable-template .group-variable .item::placeholder,
+.darkMessenger .team-modal .team-body .team-item .team-card .sector span,
+.darkMessenger .def-modal .def-input::placeholder,
+.darkMessenger .def-modal .def-select::placeholder,
+.darkMessenger .def-modal .def-textarea::placeholder,
+.darkMessenger .team-modal .team-header .team-search input::placeholder {
+	color: #9a9a9a;
+}
+
+.dark.messenger .selectModal,
+.dark.messenger .message-forward .send-message-forward,
+.dark.messenger .message-forward .close-message-forward,
+.darkMessenger .def-modal,
+.darkMessenger .def-modal .def-input,
+.darkMessenger .def-modal .def-select,
+.darkMessenger .def-modal .def-textarea,
+.darkMessenger .def-modal .def-span,
+.darkMessenger .swal2-popup .swal2-title,
+.darkMessenger .swal2-popup .swal2-content,
+.darkMessenger .modalContactForward,
+.darkMessenger .modalContactForward .header .title,
+.darkMessenger .modalContactForward .search input,
+.darkMessenger .modalContactForward .footer span,
+.darkMessenger .modalBoxTemplete,
+.darkMessenger .modalBoxTemplete .body .select,
+.darkMessenger .modalBoxTemplete .body .list-template,
+.darkMessenger .modalBoxTemplete .preview-template .button-preview-container .button-preview,
+.darkMessenger .modalBoxTemplete .main-variable .variable-template .group-variable .item,
+.darkMessenger .modalBoxTemplete .main-variable .variable-template .text-file,
+.darkMessenger .team-modal .team-header .inner-header .title,
+.darkMessenger .team-modal .team-body .team-item .team-card .name span,
+.darkMessenger .team-modal .team-header .team-search input {
+	color: #cccccc;
+}
+
+.darkMessenger .def-modal .def-footer .def-btn-cancel,
+.darkMessenger .def-modal .def-footer .def-btn-save {
+	color: #ffffff;
+}
+
+.darkMessenger .def-modal .def-header .close.def__closeModal svg path,
+.darkMessenger .modalBoxTemplete .header .close.def__closeModal svg path,
+.darkMessenger .modalBoxTemplete .main-variable .variable-template .text-file svg path,
+.darkMessenger .modalContactForward .header .close.def__closeModal svg path,
+.darkMessenger .team-modal .team-header .inner-header .close.def__closeModal svg path,
+.darkMessenger .modalBoxTemplete .preview-template .button-preview-container .button-preview svg path {
+	fill: #cccccc;
+}
+
+/* Modal resposta flow */
+.darkMessenger .flow-modal {
+	background-color: #8e8d8e99;
+}
+
+.darkMessenger .flow-modal .flow-modal-body {
+	background-color: #1d1d1d;
+}
+
+.darkMessenger .flow-modal .flow-modal-body .flow-modal-title {
+	color: #ffffff !important;
+}
+
+.darkMessenger .modal-section {
+	background-color: #1f1f1f;
+}
+
+.darkMessenger .modal-value {
+	color: #ffffff;
+}
+
+.dark.messenger .right .chat .quick {
+	background-color: #1d1d1d;
+	border-top: 1px solid #2f2f2f;
+}
+
+.dark.messenger .right .chat .quick .head {
+	background-color: #1d1d1d;
+	border-bottom: 1px solid #2f2f2f;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 15px;
+	height: 40px;
+}
+
+.dark.messenger .right .chat .quick .head span {
+	color: #9a9a9a;
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-right: 20px;
+}
+
+.dark.messenger .right .chat .quick .items .item {
+	background-color: #1d1d1d;
+	border-bottom: 1px solid #2f2f2f;
+	display: flex;
+	align-items: center;
+	padding: 8px 15px;
+	transition: background 0.2s;
+	width: 100%;
+	float: none;
+}
+
+.dark.messenger .right .chat .quick .items .item:hover {
+	background-color: #2f2f2f;
+}
+
+.dark.messenger .right .chat .quick .items .item .tag {
+	color: #cccccc;
+	font-weight: bold;
+	margin-right: 15px;
+	font-size: 14px;
+}
+
+.dark.messenger .right .chat .quick .items .item span.span:not(.tag) {
+	color: #9a9a9a;
+	font-size: 14px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.dark .img-reply {
+	width: 36px;
+	height: 36px;
+	object-fit: cover;
+	border-radius: 6px;
+	margin-left: 1px;
+	border: 1px solid #2f2f2f;
+	background: #141414;
+}
+
+.dark i.img-reply {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #cccccc !important;
+	font-size: 18px;
+	background: transparent;
+	border: none;
+}
+
+.dark .video-reply {
+	width: 36px;
+	height: 36px;
+	border-radius: 6px;
+	object-fit: cover;
+	border: 1px solid #2f2f2f;
+	background: #141414;
+}
+
+.dark .audio-reply {
+	width: 140px;
+	height: 28px;
+}
+
+.dark .audio-reply::-webkit-media-controls-panel {
+	background-color: #ffffff;
+}
+
+#dark-media-preview-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100px;
+	padding: 20px;
+	background: transparent;
+}
+
+#dark-media-preview-content audio {
+	opacity: 1 !important;
+	width: 100%;
+	max-width: 400px;
+	height: 40px;
+	filter: none !important;
+}
+
+.b-audio .box-inner {
+	background: transparent !important;
+	min-height: auto !important;
+	padding: 20px;
+}
+
+#dark-media-preview-media::-webkit-media-controls {
+	opacity: 1;
+}
+
+audio.audio {
+	filter: brightness(1) invert(0);
+	background-color: #f1f3f4;
+	border-radius: 30px;
+}
+
+#dark-media-preview-media {
+	width: 420px;
+	height: 420px;
+
+	object-fit: cover;
+
+	border-radius: 14px;
+	background: #000;
+
+	transition: transform 0.2s ease;
+}
+
+#dark-media-preview-content audio {
+	opacity: 1 !important;
+	filter: none !important;
+}
+
+#dark-media-preview-media:hover {
+	transform: scale(1.02);
+}
+
+#dark-media-preview-media:hover::-webkit-media-controls {
+	opacity: 1;
+}

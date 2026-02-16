@@ -1,0 +1,184 @@
+{
+    "emptyTable": "Ningún registro encontrado",
+    "info": "Mostrando de _START_ hasta _END_ de _TOTAL_ registros",
+    "infoEmpty": "Mostrando 0 hasta 0 de 0 registros",
+    "infoFiltered": "(Filtrados de _MAX_ registros)",
+    "infoThousands": ".",
+    "loadingRecords": "Cargando...",
+    "processing": "<img style='width:128px;' src='https://app.talkall.com.br/assets/gif/loading.gif' />",
+    "zeroRecords": "Ningún registro encontrado",
+    "search": "Buscar",
+    "paginate": {
+        "next": "Siguiente",
+        "previous": "Anterior",
+        "first": "Primero",
+        "last": "Último"
+    },
+    "aria": {
+        "sortAscending": ": Ordenar columnas de forma ascendente",
+        "sortDescending": ": Ordenar columnas de forma descendente"
+    },
+    "select": {
+        "rows": {
+            "_": "Seleccionado %d filas",
+            "0": "Ninguna fila seleccionada",
+            "1": "Seleccionado 1 fila"
+        },
+        "1": "%d fila seleccionada",
+        "_": "%d filas seleccionadas",
+        "cells": {
+            "1": "1 celda seleccionada",
+            "_": "%d celdas seleccionadas"
+        },
+        "columns": {
+            "1": "1 columna seleccionada",
+            "_": "%d columnas seleccionadas"
+        },
+        "0": "Ninguna fila seleccionada"
+    },
+    "buttons": {
+        "copySuccess": {
+            "1": "Una fila copiada con éxito",
+            "_": "%d filas copiadas con éxito"
+        },
+        "collection": "Colección  <span class=\"ui-button-icon-primary ui-icon ui-icon-triangle-1-s\"><\/span>",
+        "colvis": "Visibilidad de Columna",
+        "colvisRestore": "Restaurar Visibilidad",
+        "copy": "Copiar",
+        "copyKeys": "Presione ctrl o u2318 + C para copiar los datos de la tabla al portapapeles del sistema. Para cancelar, haga clic en este mensaje o presione Esc..",
+        "copyTitle": "Copiar al Portapapeles",
+        "csv": "CSV",
+        "excel": "Excel",
+        "pageLength": {
+            "-1": "Mostrar todos los registros",
+            "1": "Mostrar 1 registro",
+            "_": "Mostrar %d registros"
+        },
+        "pdf": "PDF",
+        "print": "Imprimir"
+    },
+    "autoFill": {
+        "cancel": "Cancelar",
+        "fill": "Rellenar todas las celdas con",
+        "fillHorizontal": "Rellenar celdas horizontalmente",
+        "fillVertical": "Rellenar celdas verticalmente"
+    },
+    "lengthMenu": "_MENU_ resultados por página",
+    "searchBuilder": {
+        "add": "Añadir Condición",
+        "button": {
+            "0": "Constructor de Búsqueda",
+            "_": "Constructor de Búsqueda (%d)"
+        },
+        "clearAll": "Limpiar Todo",
+        "condition": "Condición",
+        "conditions": {
+            "date": {
+                "after": "Después",
+                "before": "Antes",
+                "between": "Entre",
+                "empty": "Vacío",
+                "equals": "Igual",
+                "not": "No",
+                "notBetween": "No Entre",
+                "notEmpty": "No Vacío"
+            },
+            "number": {
+                "between": "Entre",
+                "empty": "Vacío",
+                "equals": "Igual",
+                "gt": "Mayor Que",
+                "gte": "Mayor o Igual a",
+                "lt": "Menor Que",
+                "lte": "Menor o Igual a",
+                "not": "No",
+                "notBetween": "No Entre",
+                "notEmpty": "No Vacío"
+            },
+            "string": {
+                "contains": "Contiene",
+                "empty": "Vacío",
+                "endsWith": "Termina Con",
+                "equals": "Igual",
+                "not": "No",
+                "notEmpty": "No Vacío",
+                "startsWith": "Comienza Con"
+            },
+            "array": {
+                "contains": "Contiene",
+                "empty": "Vacío",
+                "equals": "Igual a",
+                "not": "No",
+                "notEmpty": "No vacío",
+                "without": "No posee"
+            }
+        },
+        "data": "Datos",
+        "deleteTitle": "Eliminar regla de filtrado",
+        "logicAnd": "Y",
+        "logicOr": "O",
+        "title": {
+            "0": "Constructor de Búsqueda",
+            "_": "Constructor de Búsqueda (%d)"
+        },
+        "value": "Valor"
+    },
+    "searchPanes": {
+        "clearMessage": "Limpiar Todo",
+        "collapse": {
+            "0": "Paneles de Búsqueda",
+            "_": "Paneles de Búsqueda (%d)"
+        },
+        "count": "{total}",
+        "countFiltered": "{shown} ({total})",
+        "emptyPanes": "Ningún Panel de Búsqueda",
+        "loadMessage": "Cargando Paneles de Búsqueda...",
+        "title": "Filtros Activos"
+    },
+    "searchPlaceholder": "Ingrese un término para buscar",
+    "thousands": ".",
+    "datetime": {
+        "previous": "Anterior",
+        "next": "Siguiente",
+        "hours": "Hora",
+        "minutes": "Minuto",
+        "seconds": "Segundo",
+        "amPm": [
+            "am",
+            "pm"
+        ],
+        "unknown": "-"
+    },
+    "editor": {
+        "close": "Cerrar",
+        "create": {
+            "button": "Nuevo",
+            "submit": "Crear",
+            "title": "Crear nuevo registro"
+        },
+        "edit": {
+            "button": "Editar",
+            "submit": "Actualizar",
+            "title": "Editar registro"
+        },
+        "error": {
+            "system": "Ocurrió un error en el sistema (<a target=\"\\\" rel=\"nofollow\" href=\"\\\">Más información<\/a>)."
+        },
+        "multi": {
+            "noMulti": "Esta entrada puede ser editada individualmente, pero no como parte del grupo",
+            "restore": "Deshacer cambios",
+            "title": "Múltiples valores",
+            "info": "Los elementos seleccionados contienen valores diferentes para esta entrada. Para editar y establecer todos los elementos para esta entrada con el mismo valor, haga clic o toque aquí, de lo contrario, mantendrán sus valores individuales."
+        },
+        "remove": {
+            "button": "Eliminar",
+            "confirm": {
+                "_": "¿Está seguro de que desea eliminar %d filas?",
+                "1": "¿Está seguro de que desea eliminar 1 fila?"
+            },
+            "submit": "Eliminar",
+            "title": "Eliminar registro"
+        }
+    },
+    "decimal": ","
+}

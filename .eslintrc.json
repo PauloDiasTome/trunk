@@ -1,0 +1,47 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jquery": true
+  },
+  "extends": [],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "script"
+  },
+  "globals": {
+    "Swal": "readonly",
+    "GLOBAL_LANG": "readonly",
+    "$": "readonly",
+    "jQuery": "readonly",
+    "base_url": "readonly",
+    "site_url": "readonly",
+    "Cookies": "readonly"
+  },
+  "rules": {
+    "no-console": [
+      "error",
+      {
+        "allow": [
+          "error",
+          "warn"
+        ]
+      }
+    ],
+    "no-restricted-syntax": [
+      "error",
+      {
+        "selector": "Literal[value=/localhost/]",
+        "message": "❌ Não use 'localhost' no código. Use 'app.talkall.com' ou 'host' do serviço correspondente."
+      },
+      {
+        "selector": "Literal[value=/127\.0\.0\.1/]",
+        "message": "❌ Não use '127.0.0.1' no código. Use 'app.talkall.com' ou 'host' do serviço correspondente."
+      },
+      {
+        "selector": "Literal[value=/homologapp\.talkall\.com\.br/]",
+        "message": "❌ Não use 'homologapp.talkall.com.br' no código. Use 'app.talkall.com' (produção)."
+      }
+    ]
+  }
+}

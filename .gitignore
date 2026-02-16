@@ -1,0 +1,19 @@
+
+# IDE Files
+#-------------------------
+
+/application/logs/errors_mysql
+/vendor/composer
+
+/.vscode
+
+# Testes Tairone
+/application/controllers/TaironeController.php
+/application/models/test
+/application/views/pages/tairone
+/assets/css/tairone.css
+/assets/js/tairone.js
+/application/logs
+/tools
+/node_modules
+/vendor

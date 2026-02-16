@@ -1,0 +1,835 @@
+.talkall-widget{
+    position: absolute;
+    right: 32px;
+    bottom: 0px;
+    width: 280px;
+    height: 32px;
+    cursor: pointer;
+    background:RGB(49,51,64);
+    border-radius: 3px 3px 0px 0px;
+}
+.talkall-widget .caption{
+    width: 100%;
+    height: 100%;
+    float: left;
+    cursor: pointer;
+}
+.talkall-widget .form{
+    display: none;
+}
+.talkall-widget .caption img{
+    float: left;
+    width: 32px;
+    height: auto;
+    margin-left:25px;
+}
+.talkall-widget .caption .caption-text{
+    font-size: 14px; 
+    font-family: Arial, Arial; 
+    font-weight: normal; 
+    font-style: normal; 
+    color: rgb(240, 241, 241);
+    float: left;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.talkall-widget .caption .agent-status-online{
+    float: right;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    background: #00FF7F;
+    margin-top: 9px;
+    margin-right: 9px;
+}
+.talkall-widget .caption .agent-status-offline{
+    float: right;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    background: #A52A2A;
+    margin-top: 9px;
+    margin-right: 9px;
+}
+.talkall-show{
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    width: 300px;
+    height: 450px;
+    border-radius: 3px 3px 0px 0px;
+    box-shadow: 5px 5px 5px 5px RGB(49,51,64);
+    -webkit-box-shadow: 3px 3px 15px 1px RGB(49,51,64);
+}
+
+.talkall-show .messages .item{
+    float: left;
+    margin-top: 3px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    height: auto;
+    position: relative;
+    width: 95%;
+}
+.talkall-show .messages .item .textMessage{
+    width: auto;
+    float: right;
+    margin-right: 10px;
+    background: #0084ff;
+    font-size: 14px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 18px;
+    color: white;
+    max-width: 80%;
+    font-size: 14.2px;
+    line-height: 19px;
+    position: relative;
+    border:1px solid rgba(0, 0, 0, .20);
+}
+.talkall-show .messages .item .information{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 8px;
+    float: left;
+}
+.talkall-show .messages .item .information span{
+    background-color: rgba(225,245,254,.92);
+    border-radius: 7.5px;
+    box-shadow: 0 1px 0.5px rgba(0,0,0,.13);
+    padding: 5px 12px 6px;
+    text-shadow: 0 1px 0 hsla(0,0%,100%,.4);
+    text-align: center;
+}
+.talkall-show .messages .item .textMessage svg{
+    float: right;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.talkall-show .messages .item .textMessage .time{
+    float: right;
+    margin-left: 20px;
+    font-size: 10px;
+}
+.talkall-show .messages .item .AudioMessage{
+    float: right;
+    margin-right: 10px;
+    background: #0084ff;
+    font-size: 14px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 18px;
+    color: white;
+    font-size: 14.2px;
+    line-height: 19px;
+    position: relative;
+    border:1px solid rgba(0, 0, 0, .20);
+    min-width: 330px;
+}
+.talkall-show .messages .item .AudioMessage svg{
+    float: right;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.talkall-show .messages .item .AudioMessage audio{
+    width: 100%;
+}
+.talkall-show .messages .item .AudioMessage .time{
+    float: right;
+    margin-left: 20px;
+    font-size: 10px;
+}
+.talkall-show .messages .item .ImageMessage{
+    width: auto;
+    float: right;
+    margin-right: 10px;
+    background: #0084ff;
+    font-size: 14px;
+    padding:10px;
+    border-radius: 9px;
+    color: white;
+    max-width: 20%;
+    font-size: 14.2px;
+    line-height: 19px;
+    position: relative;
+    cursor: pointer;
+    border:1px solid rgba(0, 0, 0, .20);
+}
+.talkall-show .messages .item .ImageMessage svg{
+    float: right;
+    margin-top: 5px;
+    margin-left: 10px;
+    position: absolute;
+    right: 11px;
+    bottom: 12px;
+}
+.talkall-show .messages .item .ImageMessage img{
+    border-radius: 9px 9px 0px 0px;
+    width: 100%;
+}
+.talkall-show .messages .item .ImageMessage span{
+    float: right;
+    margin-right: 24px;
+    font-size: 10px;
+    margin-top: 0px;
+}
+.talkall-show .messages .item .ImageMessage .time{
+    float: right;
+    font-size: 10px;
+}
+.talkall-show .messages .item .StickerMessage{
+    width: 125px;
+    padding: 10px;
+    border-radius: 9px;
+    color: white;
+    max-width: 125px;
+    font-size: 14.2px;
+    line-height: 19px;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 7px;
+    border: 1px solid rgba(0, 0, 0, .20);
+}
+.talkall-show .messages .item .StickerMessage svg{
+    float: right;
+    margin-top: 5px;
+    margin-left: 10px;
+    position: absolute;
+    right: 11px;
+    bottom: 9px;
+}
+.talkall-show .messages .item .StickerMessage img{
+    border-radius: 9px 9px 0px 0px;
+}
+.talkall-show .messages .item .StickerMessage .bottom{
+    bottom: 3px;
+    color: rgba(0,0,0,.45);
+    font-size: 11px;
+    float: left;
+    width: 100%;
+    padding-top: 6px;
+}
+.talkall-show .messages .item .StickerMessage .time{
+    float: right;
+    font-size: 10px;
+    color: black;
+}
+.talkall-show .messages .item .VideoMessage{
+    width: 273px;
+    height: auto;
+    float: right;
+    padding: 2px;
+    background: #f1f0f0;
+    border-radius: 5px;
+    max-width: 223px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding:10px;
+    border:1px solid rgba(0, 0, 0, .20);
+}
+.talkall-show .messages .item .VideoMessage .thumbnail{
+    width: 100%;
+    height: 102px;
+    float: left;
+    overflow: hidden;
+    filter: blur(2px);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.talkall-show .messages .item .VideoMessage .thumbnail img{
+    border-radius: 3px;
+    width: 100%;
+}
+.talkall-show .messages .item .VideoMessage .body{
+    background: #f1f0f0;
+    float: left;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.talkall-show .messages .item .VideoMessage .body span{
+    color: black;
+    font-size: 12px;
+    margin-left:20px;
+}
+.talkall-show .messages .item .VideoMessage .bottom{
+    bottom: 3px;
+    color: rgba(0,0,0,.45);
+    font-size: 11px;
+    float: left;
+    width: 100%;
+    padding-top: 6px;
+}
+.talkall-show .messages .item .VideoMessage .bottom span{
+    padding-right: 4px;
+    float: right;
+}
+.talkall-show .messages .item .VideoMessage .bottom .time{
+    color: black;
+}
+.talkall-show .messages .item .VideoMessage .bottom svg{
+    background-position: 50% 50%;
+    float: right;
+}
+.talkall-show .messages .item .GifMessage{
+    height: auto;
+    float: right;
+    padding:10px;
+    background: #f1f0f0;
+    border-radius: 5px;
+    max-width: 330px;
+    border:1px solid rgba(0, 0, 0, .20);
+}
+.talkall-show .messages .item .GifMessage video{
+    width: 100%;
+    border-radius: 5px;
+}
+.talkall-show .messages .item .GifMessage .thumbnail{
+    width: 100%;
+    height: 102px;
+    float: left;
+    overflow: hidden;
+    filter: blur(2px);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.talkall-show .messages .item .GifMessage .thumbnail img{
+    border-radius: 3px;
+}
+.talkall-show .messages .item .GifMessage .body{
+    background: #0074e0;
+    float: left;
+    width: 100%;
+}
+.talkall-show .messages .item .GifMessage .body span{
+    color: white;
+    font-size: 12px;
+    margin-left:20px;
+}
+.talkall-show .messages .item .GifMessage .bottom{
+    bottom: 3px;
+    color: rgba(0,0,0,.45);
+    font-size: 11px;
+    float: left;
+    float: left;
+    width: 100%;
+    padding-top: 6px;
+}
+.talkall-show .messages .item .GifMessage .bottom span{
+    padding-right: 4px;
+    float: right;
+}
+.talkall-show .messages .item .GifMessage .bottom .time{
+    color: black;
+}
+.talkall-show .messages .item .GifMessage .bottom svg{
+    background-position: 50% 50%;
+    float: right;
+}
+.talkall-show .messages .item .DocumentMessage{
+    width: 273px;
+    height: auto;
+    float: right;
+    padding:10px;
+    background: #f1f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+    border:1px solid rgba(0, 0, 0, .20);
+}
+.talkall-show .messages .item .DocumentMessage .thumbnail{
+    width: 100%;
+    height: 102px;
+    float: left;
+    overflow: hidden;
+}
+.talkall-show .messages .item .DocumentMessage .thumbnail img{
+    border-radius: 3px;
+}
+.talkall-show .messages .item .DocumentMessage .body{
+    background: #f1f0f0;
+    float: left;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.talkall-show .messages .item .DocumentMessage .body span{
+    color: black;
+    font-size: 12px;
+    margin-left:20px;
+}
+.talkall-show .messages .item .DocumentMessage .bottom{
+    bottom: 3px;
+    color: rgba(0,0,0,.45);
+    font-size: 11px;
+    float: left;
+    float: left;
+    width: 100%;
+    padding-top: 6px;
+}
+.talkall-show .messages .item .DocumentMessage .bottom span{
+    padding-right: 4px;
+    float: right;
+}
+.talkall-show .messages .item .DocumentMessage .bottom .time{
+    color: black;
+}
+.talkall-show .messages .item .DocumentMessage .bottom svg{
+    float: right;
+}
+.talkall-show .messages .item .ZipMessage{
+    width: 273px;
+    height: auto;
+    float: right;
+    padding:10px;
+    background: #f1f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+    border:1px solid rgba(0, 0, 0, .20);
+}
+.talkall-show .messages .item .ZipMessage .body{
+    background: #f1f0f0;
+    float: left;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.talkall-show .messages .item .ZipMessage .body span{
+    color: black;
+    font-size: 12px;
+    margin-left:20px;
+}
+.talkall-show .messages .item .ZipMessage .body img{
+    width: 32px;
+    height: 32px;
+    float: right;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+}
+.talkall-show .messages .item .ZipMessage .bottom{
+    bottom: 3px;
+    color: rgba(0,0,0,.45);
+    font-size: 11px;
+    float: left;
+    float: left;
+    width: 100%;
+    padding-top: 6px;
+}
+.talkall-show .messages .item .ZipMessage .bottom span{
+    padding-right: 4px;
+    float: right;
+}
+.talkall-show .messages .item .ZipMessage .bottom .time{
+    color: black;
+}
+.talkall-show .messages .item .ZipMessage .bottom svg{
+    float: right;
+}
+.talkall-show .messages .item .LocationMessage{
+    width: 273px;
+    height: auto;
+    float: right;
+    padding: 2px;
+    background: #f1f0f0;
+    border-radius: 5px;
+}
+.talkall-show .messages .item .LocationMessage .thumbnail{
+    width: 100%;
+    height: 102px;
+    float: left;
+    overflow: hidden;
+}
+.talkall-show .messages .item .LocationMessage .thumbnail img{
+    border-radius: 3px;
+}
+.talkall-show .messages .item .LocationMessage .body{
+    background: #f1f0f0;
+    float: left;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.talkall-show .messages .item .LocationMessage .body span{
+    color: white;
+    font-size: 12px;
+    margin-left:20px;
+}
+.talkall-show .messages .item .LocationMessage .bottom{
+    bottom: 3px;
+    color: rgba(0,0,0,.45);
+    font-size: 11px;
+    float: left;
+    float: left;
+    width: 100%;
+    padding-top: 6px;
+}
+.talkall-show .messages .item .LocationMessage .bottom span{
+    padding-right: 4px;
+    float: right;
+}
+.talkall-show .messages .item .LocationMessage .bottom .time{
+    color: white;
+}
+.talkall-show .messages .item .LocationMessage .bottom svg{
+    float: right;
+}
+
+.talkall-show .messages .item .ContactMessage{
+    width: 273px;
+    height: auto;
+    float: right;
+    background: #f1f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+    border:1px solid rgba(0, 0, 0, .20);
+}
+.talkall-show .messages .item .ContactMessage .thumbnail{
+    width: 100%;
+    height: 102px;
+    float: left;
+    overflow: hidden;
+}
+.talkall-show .messages .item .ContactMessage .thumbnail img{
+    border-radius: 3px;
+}
+.talkall-show .messages .item .ContactMessage .body{
+    background: #f1f0f0;
+    float: left;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.talkall-show .messages .item .ContactMessage .body span{
+    font-size: 14px;
+    float: left;
+    margin-top: 13px;
+    margin-left: 14px;
+}
+.talkall-show .messages .item .ContactMessage .body img{
+    width: 44px;
+    height: 44px;
+    float: left;
+    margin-left:18px;
+}
+.talkall-show .messages .item .ContactMessage .bottom{
+    bottom: 3px;
+    color: rgba(0,0,0,.45);
+    font-size: 11px;
+    float: left;
+    float: left;
+    width: 100%;
+    padding-top: 6px;
+    border-top: 1px solid #bfbfbf;
+}
+.talkall-show .messages .item .ContactMessage .buttom input{
+    border:0px;
+    background: transparent;
+    margin-bottom: 5px;
+}
+.talkall-show .messages .item .ContactMessage .buttom button{
+    border:0px;
+    background: transparent;
+    color: #4ec545;
+}
+.talkall-show .messages .item .ContactMessage .bottom span{
+    padding-right: 4px;
+    float: right;
+}
+.talkall-show .messages .item .ContactMessage .bottom .time{
+    color: black;
+}
+.talkall-show .messages .item .ContactMessage .bottom svg{
+    float: right;
+}
+.talkall-show .input{
+    width: 100%;
+    height: 10%;
+    background: blue;
+    float: left;
+}
+.talkall-show .caption{
+    width: 100%;
+    height: 64px;
+    float: left;
+    background-color: rgb(56, 51, 69);
+    border-radius: 3px 3px 0px 0px;
+}
+.talkall-show .caption .img{
+    width: 100%;
+    background-size: 14px 14px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 18px;
+}
+.talkall-show .caption .caption-text{
+    font-size: 14px;
+    font-family: Arial, Arial;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(240, 241, 241);
+    float: left;
+    margin-left: 12px;
+    margin-top: 22px;
+}
+.talkall-show .chat{
+    width: 100%;
+    height: calc(100% - 135px);
+    float: left;
+    z-index: 9999;
+    display: -webkit-flex;
+    display: flex;
+    flex: 1 1 1 1;
+    float: left;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.talkall-show .messages{
+    background: transparent;
+    width: calc(100%);
+    height: 100%;
+    float: left;
+    overflow-y: auto;
+    overflow-x: hidden;
+    order: 1;
+    border-bottom: 1px solid rgba(0, 0, 0, .20);
+    display: -webkit-flex;
+    display: flex;
+    flex: 1 1 1 1;
+    float: left;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.talkall-show .input{
+    float: left;
+    width: 100%;
+    height: 13%;
+    background: RGB(237,240,244);
+}
+.talkall-show .input input[type=text]{
+    height: 32px;
+    width: 96%;
+    float: right;
+    padding: 5px;
+    margin-right: 2%;
+    margin-top:10px;
+    border: 0px;
+    border-radius: 30px;
+    padding: 19px;
+}
+.talkall-show .form{
+    width: 100%;
+    height: calc(100% - 200px);
+    float: left;
+    background: white;
+}
+.talkall-show .form .text{
+    color: #545d6b;
+    font-size: 16px;
+    line-height: 19px;
+    white-space: pre-wrap;
+    max-width: 240px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    font-family: Arial,sans-serif;
+    text-align: center;
+    width: 100%;
+}
+.talkall-widget .bottom{
+    width: 100%;
+    height: auto;
+    float:left;
+    bottom: 0px;
+    position: absolute;
+    padding: 5px;
+    display: none;
+}
+.talkall-widget .input{
+    display: none;
+}
+.talkall-widget .widget-bottom{
+    display: none;
+}
+.talkall-show .widget-bottom{
+    width: 100%;
+    height: auto;
+    float:left;
+    bottom: 0px;
+    position: absolute;
+    padding: 5px;
+    display: block;
+}
+.talkall-show .widget-bottom label{
+    float: right;
+    font-family: 'Arial';
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.talkall-show .widget-bottom label{
+    font-size: 12px;
+}
+.talkall-show .widget-bottom img{
+    float: right;
+    margin-right: 20px;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+input[type=text]{
+    padding: 7px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #bfcdd3;
+    margin-top: 5px;
+    color: #545d6b;
+}
+input[type=button]{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background: #3cb868;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 10px 9px;
+    margin-bottom: 7px;
+    border-radius: 3px 3px 3px 3px;
+    width: 100%;
+    border:0px;
+}
+textarea{
+    border-radius: 3px;
+    border: 1px solid #bfcdd3;
+    margin-top: 5px;
+    padding:10px;
+    color: #545d6b;
+}
+
+@media screen and (max-width: 320px) and ( max-height: 568px ) {
+    .talkall-widget{
+        width: 64px;
+        height: 64px;
+        right: 20px;
+        bottom: 20px;
+        border-radius: 50px;
+    }
+    .talkall-widget .caption{
+        display: block;
+    }
+    .talkall-widget .caption img{
+        width: 48px;
+        height: 48px;
+        margin-top: 7px;
+        margin-left: 7px;
+    }
+    .talkall-widget .caption .caption-text{
+        display: none;
+    }
+    .talkall-widget .caption .agent-status-online{
+        display: none;
+    }
+    .talkall-widget .caption .agent-status-offline{
+        display: none;
+    }
+
+    .talkall-show{
+        width: 100%;
+        height: 100%;
+        right: 0px;
+        bottom: 0px;
+        border-radius: 0px 0px 0px 0px;
+        box-shadow: 0px 0px 0px 0px RGB(49,51,64);
+        -webkit-box-shadow: 0px 0px 0px 0px RGB(49,51,64);
+    }
+    
+    .talkall-show .caption{
+        width: 100%;
+    }
+    .talkall-show .caption .caption-text{
+        width: 100%;
+    }
+    .talkall-show .widget-bottom{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) and ( max-height: 812px ) {
+    .talkall-show{
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+        width: 100%;
+        height: 100%;
+        border-radius: 0px 0px 0px 0px;
+        box-shadow: 0px 0px 0px 0px RGB(49,51,64);
+        -webkit-box-shadow: 0px 0px 0px 0px RGB(49,51,64);
+    }
+    .talkall-show{
+        right: 0px;
+        border-radius: 0px;
+    }
+    .talkall-show .caption{
+        border-radius: 0px;
+    }
+    .talkall-show .caption .caption-text{
+        margin-top: 23px;
+    }
+    .talkall-show .input-text{
+        font-size: 16px !important;
+    }
+}
+
+@media screen and (max-width: 812px) and ( max-height: 375px ) and ( orientation: landscape ) {
+    .talkall-show{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .talkall-widget{
+        width: 64px;
+        height: 64px;
+        right: 20px;
+        bottom: 20px;
+        border-radius: 50px;
+    }
+    .talkall-widget .caption{
+        display: block;
+    }
+    .talkall-widget .caption img{
+        width: 48px;
+        height: 48px;
+        margin-top: 7px;
+        margin-left: 7px;
+    }
+    .talkall-widget .caption .caption-text{
+        display: none;
+    }
+    .talkall-widget .caption .agent-status-online{
+        display: none;
+    }
+    .talkall-widget .caption .agent-status-offline{
+        display: none;
+    }
+    .talkall-widget .widget-bottom img{
+        display: none;
+    }
+    .talkall-widget .widget-bottom label{
+        display: none;
+    }
+}

@@ -1,0 +1,400 @@
+#whts_widget_box {
+    width: 375px;
+    height: 700px;
+    max-height: calc(100% - 105px);
+    max-width: calc(100% - 20px);
+    overflow: hidden;
+}
+
+#widget_popup, #whts_widget_box {
+    width: 290px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, .98);
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, .1);
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    padding: 16px 22px 16px 22px;
+    position: fixed;
+    bottom: 96px;
+    transition: all 0.3s ease-out;
+    padding-bottom: 0;
+    transform: translate3d(0, 20px, 0);
+    opacity: 0;
+}
+
+#circle_close {
+    width: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    opacity: 0;
+    transform: rotate(120deg) scale(1.2);
+    transition: all 0.3s ease;
+}
+
+#whts_widget_box, #whts_widget_btns, #whts_widget_btns a, #whts_widget_btns img, #whts_widget_btns span, #whts_widget_tagline, #whts_widget_user, #whts_widget_userimage, #whts_widget_username, #whatsshare_widget, #welcome_message, #welcome_message p, #widget_circle, #widget_close, #widget_popup {
+    font-size-adjust: none;
+    letter-spacing: normal;
+    font-stretch: normal;
+    font: normal normal 100% 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align-last: auto;
+    text-decoration: none;
+    -webkit-text-emphasis: none;
+    text-emphasis: none;
+    text-height: auto;
+    text-indent: 0;
+    text-justify: auto;
+    text-outline: none;
+    text-shadow: none;
+    text-transform: none;
+    text-wrap: normal;
+    alignment-adjust: auto;
+    alignment-baseline: baseline;
+    -webkit-animation: none 0 ease 0 1 normal;
+    animation: none 0 ease 0 1 normal;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+    -webkit-appearance: normal;
+    -moz-appearance: normal;
+    appearance: normal;
+    azimuth: center;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    background: padding-box;
+    baseline-shift: baseline;
+    binding: none;
+    bleed: 6pt;
+    bookmark-label: content();
+    bookmark-level: none;
+    bookmark-state: open;
+    bookmark-target: none;
+    border: 0 transparent;
+    border-radius: 0;
+    bottom: auto;
+    box-align: stretch;
+    -webkit-box-decoration-break: slice;
+    box-decoration-break: slice;
+    box-direction: normal;
+    box-flex: 0;
+    box-flex-group: 1;
+    box-lines: single;
+    box-ordinal-group: 1;
+    box-orient: inline-axis;
+    box-pack: start;
+    box-shadow: none;
+    box-sizing: content-box;
+    -webkit-column-break-after: auto;
+    break-after: auto;
+    -webkit-column-break-before: auto;
+    break-before: auto;
+    -webkit-column-break-inside: auto;
+    break-inside: auto;
+    caption-side: top;
+    clear: none;
+    clip: auto;
+    color: inherit;
+    color-profile: auto;
+    -webkit-column-count: auto;
+    -moz-column-count: auto;
+    column-count: auto;
+    -webkit-column-fill: balance;
+    -moz-column-fill: balance;
+    column-fill: balance;
+    -webkit-column-gap: normal;
+    -moz-column-gap: normal;
+    column-gap: normal;
+    -webkit-column-rule: medium medium #1f1f1f;
+    -moz-column-rule: medium medium #1f1f1f;
+    column-rule: medium medium #1f1f1f;
+    -webkit-column-span: 1;
+    -moz-column-span: 1;
+    column-span: 1;
+    -webkit-column-width: auto;
+    -moz-column-width: auto;
+    column-width: auto;
+    -webkit-columns: auto auto;
+    -moz-columns: auto auto;
+    columns: auto auto;
+    content: normal;
+    counter-increment: none;
+    counter-reset: none;
+    crop: auto;
+    cursor: auto;
+    direction: ltr;
+    dominant-baseline: auto;
+    drop-initial-after-adjust: text-after-edge;
+    drop-initial-after-align: baseline;
+    drop-initial-before-adjust: text-before-edge;
+    drop-initial-before-align: caps-height;
+    drop-initial-size: auto;
+    drop-initial-value: initial;
+    elevation: level;
+    empty-cells: show;
+    fit: fill;
+    fit-position: 0 0;
+    float: none;
+    float-offset: 0 0;
+    grid-columns: none;
+    grid-rows: none;
+    hanging-punctuation: none;
+    height: auto;
+    hyphenate-after: auto;
+    hyphenate-before: auto;
+    hyphenate-character: auto;
+    hyphenate-lines: no-limit;
+    hyphenate-resource: none;
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+    icon: auto;
+    image-orientation: auto;
+    image-rendering: auto;
+    image-resolution: normal;
+    inline-box-align: last;
+    left: auto;
+    line-stacking: inline-line-height exclude-ruby consider-shifts;
+    list-style: disc;
+    margin: 0;
+    marks: none;
+    marquee-direction: forward;
+    marquee-loop: 1;
+    marquee-play-count: 1;
+    marquee-speed: normal;
+    marquee-style: scroll;
+    max-height: none;
+    max-width: none;
+    min-height: 0;
+    min-width: 0;
+    move-to: normal;
+    nav-down: auto;
+    nav-index: auto;
+    nav-left: auto;
+    nav-right: auto;
+    nav-up: auto;
+    opacity: 1;
+    orphans: 2;
+    outline: 0;
+    outline-offset: 0;
+    overflow: visible;
+    overflow-style: auto;
+    padding: 0;
+    page: auto;
+    page-break-after: auto;
+    page-break-before: auto;
+    page-break-inside: auto;
+    page-policy: start;
+    -webkit-perspective: none;
+    perspective: none;
+    -webkit-perspective-origin: 50% 50%;
+    perspective-origin: 50% 50%;
+    pointer-events: auto;
+    position: static;
+    presentation-level: 0;
+    punctuation-trim: none;
+    quotes: none;
+    rendering-intent: auto;
+    resize: none;
+    right: auto;
+    rotation: 0;
+    rotation-point: 50% 50%;
+    ruby-align: auto;
+    ruby-overhang: none;
+    ruby-position: before;
+    ruby-span: none;
+    size: auto;
+    string-set: none;
+    table-layout: auto;
+    top: auto;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    -webkit-transform-origin: 50% 50% 0;
+    -ms-transform-origin: 50% 50% 0;
+    transform-origin: 50% 50% 0;
+    -webkit-transform-style: flat;
+    transform-style: flat;
+    transition: all 0 ease 0;
+    unicode-bidi: normal;
+    vertical-align: baseline;
+    white-space: normal;
+    white-space-collapse: collapse;
+    widows: 2;
+    width: auto;
+    word-break: normal;
+    word-spacing: normal;
+    word-wrap: normal;
+    z-index: auto;
+    text-align: start;
+    -ms-filter: 'progid:DXImageTransform.Microsoft.gradient(enabled=false)';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#widget_circle {
+    /* max-width: 220px; */
+    overflow: hidden;
+    transition: all 0.4s ease-out;
+    min-width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    cursor: pointer;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .06), 0 2px 32px rgba(0, 0, 0, .16)!important;
+    position: fixed;
+    bottom: 20px;
+    background: #29323C;
+    z-index: 99999999999;
+}
+
+#widget_circle span {
+    position: relative;
+    top: 21px;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 60px;
+    padding-right: 20px;
+    transition: all 0.3s ease;
+}
+
+#welcome_message {
+    float: left;
+    width: calc(100% + 34px);
+    padding-top: 70px;
+    margin-top: -70px;
+    margin-left: -16px;
+    box-sizing: border-box;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 6px;
+    position: relative;
+    transform: translate3d(0, 0, 0);
+    z-index: 9999999999;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+#welcome_message p:nth-child(1) {
+    font-family: 'roboto', 'arial', sans-serif;
+    font-weight: 600;
+    color: #29323C;
+    font-size: 13px;
+    margin: 0px!important;
+}
+
+#widget_popup {
+    display: none;
+}
+
+#widget_popup {
+    transform: translate3d(0, 0, 0);
+    z-index: 9999999999;
+}
+
+#widget_popup, #whts_widget_box {
+    width: 290px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, .98);
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, .1);
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    padding: 16px 22px 16px 22px;
+    position: fixed;
+    bottom: 96px;
+    transition: all 0.3s ease-out;
+    padding-bottom: 0;
+    transform: translate3d(0, 20px, 0);
+    opacity: 0;
+}
+
+#widget_close {
+    width: 28px;
+    height: 28px;
+    border-radius: 28px;
+    background: rgba(0, 0, 0, .3) url(https://messenger.interno.gelt.com.br/assets/img/icon_close.svg);
+    box-sizing: border-box;
+    background-size: 10.5px;
+    background-position: 9px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+#widget_close {
+    opacity: 1;
+}
+
+#whts_widget_box {
+    width: 375px;
+    height: 700px;
+    max-height: calc(100% - 105px);
+    max-width: calc(100% - 20px);
+    overflow: hidden;
+}
+
+#whts_widget_box {
+    z-index: -1;
+}
+
+.widget_bg3 {
+    background: #25D366!important;
+}
+
+#widget_logo {
+    position: absolute;
+    top: 16px;
+    left: 15px!important;
+    transition: all 0.3s ease;
+    opacity: 1;
+    width: 28px;
+}
+
+#widget_popup {
+    opacity: 1;
+}
+
+.animated {
+    opacity: 1!important;
+    -webkit-transform: translateY(0)!important;
+    transform: translateY(0)!important;
+    transition: opacity 1s ease, -webkit-transform 1s ease;
+    transition: transform 1s ease, opacity 1s ease;
+    transition: transform 1s ease, opacity 1s ease, -webkit-transform 1s ease;
+}
+
+.card-intro-bg.animated {
+    opacity: 1!important;
+    -webkit-transform: translateY(0)!important;
+    transform: translateY(0)!important;
+    transition: opacity 1s ease, -webkit-transform 1s ease;
+    transition: transform 1s ease, opacity 1s ease;
+    transition: transform 1s ease, opacity 1s ease, -webkit-transform 1s ease;
+}
+
+.card-intro-bg.animated {
+    opacity: 1!important;
+    -webkit-transform: translateY(0)!important;
+    transform: translateY(0)!important;
+    transition: opacity 1s ease, -webkit-transform 1s ease;
+    transition: transform 1s ease, opacity 1s ease;
+    transition: transform 1s ease, opacity 1s ease, -webkit-transform 1s ease;
+}
+
+.card-intro-bg.img::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

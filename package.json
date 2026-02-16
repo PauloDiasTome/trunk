@@ -1,0 +1,25 @@
+{
+  "name": "panel",
+  "version": "1.0.0",
+  "scripts": {
+    "lint:js": "eslint assets/js",
+    "lint:php": "composer lint:php",
+    "fix:js": "eslint assets/js --fix",
+    "fix:php": "composer fix:php",
+    "lint": "npm run lint:js && npm run lint:php",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint"
+    ],
+    "application/**/*.php": [
+      "./vendor/bin/phpcs"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^4.0"
+  },
+  "scripts": {
+    "lint:php": "./vendor/bin/phpcs",
+    "fix:php": "./vendor/bin/phpcbf",
+    "lint": [
+      "@lint:php"
+    ]
+  }
+}

@@ -35,11 +35,11 @@
         "message": "❌ Não use 'localhost' no código. Use 'app.talkall.com' ou 'host' do serviço correspondente."
       },
       {
-        "selector": "Literal[value=/127\.0\.0\.1/]",
+        "selector": "Literal[value=/127\\.0\\.0\\.1/]",
         "message": "❌ Não use '127.0.0.1' no código. Use 'app.talkall.com' ou 'host' do serviço correspondente."
       },
       {
-        "selector": "Literal[value=/homologapp\.talkall\.com\.br/]",
+        "selector": "Literal[value=/homologapp\\.talkall\\.com\\.br/]",
         "message": "❌ Não use 'homologapp.talkall.com.br' no código. Use 'app.talkall.com' (produção)."
       }
     ]
